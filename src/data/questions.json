@@ -1,0 +1,155 @@
+{
+  "version": "1.0.0",
+  "questions": [
+    {
+      "id": "q_001",
+      "chapter": "3-4",
+      "keyword": "WAN",
+      "question": "広域ネットワークのことで、地理的に離れた拠点間を接続するネットワークを何というか？",
+      "choices": ["A. LAN", "B. WAN", "C. MAN", "D. VPN"],
+      "answer": "B",
+      "explanation": "WANはWide Area Networkの略。地理的に広い範囲をカバーするネットワーク。LANは同一建物内などの狭い範囲のネットワーク。",
+      "termExplanations": {
+        "A": "LAN（Local Area Network）：同一建物や同一フロアなど限られた範囲内のネットワーク。",
+        "B": "WAN（Wide Area Network）：地理的に離れた拠点間を結ぶ広域ネットワーク。インターネットもWANの一種。",
+        "C": "MAN（Metropolitan Area Network）：都市規模のネットワーク。LANとWANの中間に位置する。",
+        "D": "VPN（Virtual Private Network）：公共ネットワーク上に仮想的な専用線を構築する技術。WANの実現手段の一つ。"
+      }
+    },
+    {
+      "id": "q_002",
+      "chapter": "3-4",
+      "keyword": "ESSID",
+      "question": "無線LANのアクセスポイントを識別するための名前を何というか？",
+      "choices": ["A. SSID／ESSID", "B. MACアドレス", "C. IPアドレス", "D. BSSID"],
+      "answer": "A",
+      "explanation": "ESSID（Extended SSID）は無線LANのネットワーク名。アクセスポイントに設定し、接続先を識別するために使う。",
+      "termExplanations": {
+        "A": "SSID／ESSID：無線LANのネットワーク識別名。スマホのWi-Fi接続画面に表示されるネットワーク名がこれにあたる。",
+        "B": "MACアドレス：ネットワーク機器に割り当てられた固有の物理アドレス。製造時に設定される48ビットの識別子。",
+        "C": "IPアドレス：ネットワーク上の機器を識別するための論理アドレス。ネットワーク管理者が割り当てる。",
+        "D": "BSSID：アクセスポイントのMACアドレスのこと。同一SSIDの複数APを区別するために使われる。"
+      }
+    },
+    {
+      "id": "q_003",
+      "chapter": "3-4",
+      "keyword": "DNS",
+      "question": "IPアドレスとドメイン名を相互変換する仕組みを何というか？",
+      "choices": ["A. DHCP", "B. NAT", "C. DNS", "D. ARP"],
+      "answer": "C",
+      "explanation": "DNS（Domain Name System）はドメイン名（例: google.com）をIPアドレスに変換する仕組み。インターネットの電話帳とも呼ばれる。",
+      "termExplanations": {
+        "A": "DHCP（Dynamic Host Configuration Protocol）：ネットワーク接続時にIPアドレスを自動的に割り当てるプロトコル。",
+        "B": "NAT（Network Address Translation）：プライベートIPアドレスをグローバルIPアドレスに変換する技術。",
+        "C": "DNS（Domain Name System）：ドメイン名とIPアドレスを対応付けて管理・変換する仕組み。",
+        "D": "ARP（Address Resolution Protocol）：IPアドレスからMACアドレスを調べるプロトコル。同一LAN内で使用。"
+      }
+    },
+    {
+      "id": "q_004",
+      "chapter": "3-4",
+      "keyword": "PLC",
+      "question": "電力線を使ってデータ通信を行う技術を何というか？",
+      "choices": ["A. PLC", "B. NFC", "C. Bluetooth", "D. ZigBee"],
+      "answer": "A",
+      "explanation": "PLC（Power Line Communication）は既存の電力線を通信回線として利用する技術。新たな配線工事が不要なため導入が容易。",
+      "termExplanations": {
+        "A": "PLC（Power Line Communication）：電力線を通信回線として流用する技術。コンセントがあれば通信できる。",
+        "B": "NFC（Near Field Communication）：数cm程度の近距離で通信する無線技術。交通系ICカードや電子マネーに使用。",
+        "C": "Bluetooth：数m〜数十mの近距離無線通信技術。イヤホンやマウスなどの周辺機器に広く利用される。",
+        "D": "ZigBee：低消費電力・低速の近距離無線通信規格。センサーネットワークやスマートホームに使用される。"
+      }
+    },
+    {
+      "id": "q_005",
+      "chapter": "3-4",
+      "keyword": "ワーム",
+      "question": "ネットワークを通じて自己増殖し、他のコンピュータに感染するマルウェアを何というか？",
+      "choices": ["A. トロイの木馬", "B. スパイウェア", "C. ランサムウェア", "D. ワーム"],
+      "answer": "D",
+      "explanation": "ワームは宿主ファイルを必要とせず、自己増殖してネットワーク経由で感染拡大するマルウェア。トロイの木馬は正常なソフトに見せかけて侵入するものを指す。",
+      "termExplanations": {
+        "A": "トロイの木馬：正常なソフトウェアに見せかけてインストールさせ、バックドアを作るマルウェア。自己増殖はしない。",
+        "B": "スパイウェア：利用者の行動やデータを密かに収集して外部に送信するマルウェア。",
+        "C": "ランサムウェア：ファイルを暗号化して使用不能にし、復号と引き換えに金銭を要求するマルウェア。",
+        "D": "ワーム：宿主ファイルを必要とせず、ネットワークを通じて自律的に自己増殖・感染拡大するマルウェア。"
+      }
+    },
+    {
+      "id": "q_006",
+      "chapter": "3-4",
+      "keyword": "クロスサイトリクエストフォージェリ",
+      "question": "ログイン済みのユーザーに意図しない操作を実行させる攻撃を何というか？",
+      "choices": ["A. SQLインジェクション", "B. クロスサイトスクリプティング", "C. クロスサイトリクエストフォージェリ", "D. ディレクトリトラバーサル"],
+      "answer": "C",
+      "explanation": "CSRF（Cross-Site Request Forgery）は、被害者がログイン中のサービスに対し、攻撃者が用意したリンクを踏ませることで意図しない操作（送金・設定変更等）を実行させる攻撃。",
+      "termExplanations": {
+        "A": "SQLインジェクション：入力フォームに不正なSQL文を挿入してDBを不正操作する攻撃。",
+        "B": "クロスサイトスクリプティング（XSS）：悪意あるスクリプトをWebページに埋め込み、閲覧者のブラウザで実行させる攻撃。",
+        "C": "クロスサイトリクエストフォージェリ（CSRF）：ログイン済みユーザーに意図しないリクエストを送信させる攻撃。",
+        "D": "ディレクトリトラバーサル：「../」などを利用してWebサーバー上の非公開ファイルに不正アクセスする攻撃。"
+      }
+    },
+    {
+      "id": "q_007",
+      "chapter": "3-4",
+      "keyword": "SQLインジェクション",
+      "question": "Webアプリケーションのデータベースに不正なSQL文を送り込む攻撃を何というか？",
+      "choices": ["A. バッファオーバーフロー", "B. SQLインジェクション", "C. DNSポイズニング", "D. フィッシング"],
+      "answer": "B",
+      "explanation": "SQLインジェクションは入力フォームに悪意あるSQL文を挿入し、データベースの不正操作や情報漏洩を引き起こす攻撃。入力値のバリデーションで防御できる。",
+      "termExplanations": {
+        "A": "バッファオーバーフロー：プログラムのメモリ領域（バッファ）に許容量を超えるデータを送り込み、誤動作を引き起こす攻撃。",
+        "B": "SQLインジェクション：入力欄に不正なSQL文を挿入してDBを操作し、情報漏洩や改ざんを引き起こす攻撃。",
+        "C": "DNSポイズニング：DNSキャッシュに偽の情報を注入し、正規サイトへのアクセスを偽サイトに誘導する攻撃。",
+        "D": "フィッシング：正規サービスを装ったメールやサイトでID・パスワードなどを騙し取る攻撃。"
+      }
+    },
+    {
+      "id": "q_008",
+      "chapter": "3-4",
+      "keyword": "IPS",
+      "question": "ネットワークへの不正侵入を検知するだけでなく、自動的に遮断・防御する装置を何というか？",
+      "choices": ["A. IDS", "B. IPS", "C. WAF", "D. DMZ"],
+      "answer": "B",
+      "explanation": "IPS（Intrusion Prevention System）は不正侵入を検知して自動遮断する。IDSは検知のみで遮断しない点が異なる。",
+      "termExplanations": {
+        "A": "IDS（Intrusion Detection System）：不正侵入を検知して管理者に通知するシステム。遮断機能はない。",
+        "B": "IPS（Intrusion Prevention System）：不正侵入を検知し、自動的に通信を遮断・防御するシステム。",
+        "C": "WAF（Web Application Firewall）：WebアプリへのSQLインジェクションやXSSなどの攻撃を検知・遮断する装置。",
+        "D": "DMZ（DeMilitarized Zone）：外部ネットワークと内部ネットワークの間に設ける中間ネットワーク領域。"
+      }
+    },
+    {
+      "id": "q_009",
+      "chapter": "3-4",
+      "keyword": "公開鍵暗号方式",
+      "question": "公開鍵暗号方式において、送信者がメッセージを暗号化する際に使用する鍵はどれか？",
+      "choices": ["A. 送信者の秘密鍵", "B. 送信者の公開鍵", "C. 受信者の秘密鍵", "D. 受信者の公開鍵"],
+      "answer": "D",
+      "explanation": "公開鍵暗号方式では「受信者の公開鍵」で暗号化し、「受信者の秘密鍵」で復号する。公開鍵は誰でも取得できるが、秘密鍵は受信者だけが持つ。",
+      "termExplanations": {
+        "A": "送信者の秘密鍵：送信者だけが持つ鍵。電子署名（なりすまし防止）に使用する。暗号化には使わない。",
+        "B": "送信者の公開鍵：送信者の公開鍵は、受信者が送信者の電子署名を検証する際に使用する。",
+        "C": "受信者の秘密鍵：受信者だけが持つ鍵。受信者の公開鍵で暗号化されたデータを復号するために使う。",
+        "D": "受信者の公開鍵：誰でも入手できる鍵。送信者はこれを使ってメッセージを暗号化する。"
+      }
+    },
+    {
+      "id": "q_010",
+      "chapter": "3-4",
+      "keyword": "ISMS",
+      "question": "組織が情報セキュリティを継続的に管理・改善するための仕組みを何というか？",
+      "choices": ["A. ISMS", "B. BCM", "C. ITIL", "D. COBIT"],
+      "answer": "A",
+      "explanation": "ISMS（Information Security Management System）は情報セキュリティマネジメントシステム。ISO/IEC 27001として国際規格化されており、PDCAサイクルで継続的改善を行う。",
+      "termExplanations": {
+        "A": "ISMS（Information Security Management System）：情報セキュリティを組織的・継続的に管理する仕組み。ISO 27001として規格化。",
+        "B": "BCM（Business Continuity Management）：災害や障害が発生しても事業を継続するための管理体制。",
+        "C": "ITIL（IT Infrastructure Library）：ITサービスマネジメントのベストプラクティス集。運用管理の標準的指針。",
+        "D": "COBIT（Control Objectives for IT）：ITガバナンスとITマネジメントのフレームワーク。内部統制に活用される。"
+      }
+    }
+  ]
+}
