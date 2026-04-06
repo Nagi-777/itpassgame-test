@@ -151,9 +151,6 @@ export default function Quiz({ config, reviewQueue, onFinish }: QuizProps) {
           <span className="text-xs bg-indigo-100 text-indigo-600 px-2 py-0.5 rounded-full font-medium">
             {current.chapter}章
           </span>
-          <span className="ml-2 text-xs bg-gray-100 text-gray-500 px-2 py-0.5 rounded-full">
-            {current.keyword}
-          </span>
         </div>
 
         {/* 問題文 */}
