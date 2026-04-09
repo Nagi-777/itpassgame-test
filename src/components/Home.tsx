@@ -12,10 +12,17 @@ interface HomeProps {
 const allQuestions = questionsData.questions;
 const chapters = Array.from(new Set(allQuestions.map(q => q.chapter))).sort();
 
+// 章ごとの問題数マップ
+const chapterCountMap: Record<string, number> = { all: allQuestions.length };
+for (const ch of chapters) {
+  chapterCountMap[ch] = allQuestions.filter(q => q.chapter === ch).length;
+}
+
 export default function Home({ reviewCount, testHistory, onStart }: HomeProps) {
   const [selectedChapter, setSelectedChapter] = useState<string>('all');
 
   const chapterLabel = (ch: string) => ch === 'all' ? '全問' : `${ch}章`;
+  const questionCount = chapterCountMap[selectedChapter] ?? 0;
 
   return (
     <div className="min-h-screen bg-gray-50 flex flex-col px-4 pt-8 pb-10 max-w-lg mx-auto">
@@ -61,7 +68,7 @@ export default function Home({ reviewCount, testHistory, onStart }: HomeProps) {
           onClick={() => onStart({ mode: 'chapter', chapter: selectedChapter })}
           className="w-full py-4 bg-indigo-600 hover:bg-indigo-700 active:bg-indigo-800 text-white rounded-xl font-bold text-base shadow-sm transition-colors"
         >
-          テスト開始（{chapterLabel(selectedChapter)} · 10問）
+          テスト開始（{chapterLabel(selectedChapter)} · {questionCount}問）
         </button>
         <button
           onClick={() => onStart({ mode: 'review', chapter: 'all' })}

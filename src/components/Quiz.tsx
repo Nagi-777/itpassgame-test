@@ -31,7 +31,7 @@ export default function Quiz({ config, reviewQueue, onFinish }: QuizProps) {
     } else {
       pool = allQuestions.filter(q => q.chapter === config.chapter);
     }
-    return shuffle(pool).slice(0, 10);
+    return shuffle(pool);
   });
 
   const [index, setIndex] = useState(0);
@@ -146,7 +146,6 @@ export default function Quiz({ config, reviewQueue, onFinish }: QuizProps) {
 
       {/* 問題エリア */}
       <div className="flex-1 overflow-y-auto px-4 pt-5 pb-4">
-        {/* キーワード */}
         <div className="mb-3">
           <span className="text-xs bg-indigo-100 text-indigo-600 px-2 py-0.5 rounded-full font-medium">
             {current.chapter}章
