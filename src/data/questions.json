@@ -825,6 +825,1506 @@
         "C": "BPO（Business Process Outsourcing）：業務プロセスを外部の専門業者に委託する手法。RPAとは異なり外部化を指す。",
         "D": "ERP（Enterprise Resource Planning）：企業全体の経営資源を統合管理するシステム。RPAと連携して活用されることもある。"
       }
+    },
+    {
+      "id": "q_056",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ISMS",
+      "question": "組織が情報セキュリティを継続的に管理・改善するための仕組みを何というか？",
+      "choices": ["A. ISMS", "B. BCM", "C. ITIL", "D. COBIT"],
+      "answer": "A",
+      "explanation": "ISMS（Information Security Management System）は情報セキュリティマネジメントシステム。ISO/IEC 27001として国際規格化されており、PDCAサイクルで継続的改善を行う。",
+      "termExplanations": {
+        "A": "ISMS：情報セキュリティを組織的・継続的に管理する仕組み。ISO 27001として規格化されている。",
+        "B": "BCM：事業継続管理。BCPを策定・維持・改善するための組織的な管理活動。",
+        "C": "ITIL：ITサービスマネジメントのベストプラクティス集。IT運用管理の標準的指針。",
+        "D": "COBIT：ITガバナンスとITマネジメントのフレームワーク。内部統制に活用される。"
+      }
+    },
+    {
+      "id": "q_057",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "BCP",
+      "question": "災害・事故・システム障害などの緊急事態が発生した際に、事業を継続・早期復旧するための計画を何というか？",
+      "choices": ["A. DR", "B. BCM", "C. BCP", "D. RTO"],
+      "answer": "C",
+      "explanation": "BCP（Business Continuity Plan）は事業継続計画。緊急事態発生時に重要業務を継続・早期再開するための手順や体制を定めた計画書。",
+      "termExplanations": {
+        "A": "DR（Disaster Recovery）：災害などによるシステム障害から復旧するための手順・設備の総称。",
+        "B": "BCM（Business Continuity Management）：BCPを策定・維持・改善するための組織的な管理活動。",
+        "C": "BCP（Business Continuity Plan）：緊急事態発生時に重要業務を継続・早期復旧するための計画書。",
+        "D": "RTO（Recovery Time Objective）：障害発生からシステム復旧までの目標時間。BCPで設定される指標の一つ。"
+      }
+    },
+    {
+      "id": "q_058",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "IoT",
+      "question": "センサーや家電・設備など様々なモノをインターネットに接続し、データの収集・制御を行う仕組みを何というか？",
+      "choices": ["A. M2M", "B. IoT", "C. AI", "D. エッジコンピューティング"],
+      "answer": "B",
+      "explanation": "IoT（Internet of Things）はモノのインターネット。スマート家電・工場の機械・自動車などをインターネットに接続し、遠隔監視・制御・データ活用を行う。",
+      "termExplanations": {
+        "A": "M2M（Machine to Machine）：人を介さず機械同士が直接通信する仕組み。IoTの前身となる概念。",
+        "B": "IoT（Internet of Things）：様々なモノをインターネットに接続してデータ収集・制御を行う仕組み。",
+        "C": "AI（Artificial Intelligence）：人間の知的活動をコンピュータで再現する技術。機械学習・深層学習を含む。",
+        "D": "エッジコンピューティング：データ処理をクラウドではなくデータ発生源の近くで行う分散処理の仕組み。"
+      }
+    },
+    {
+      "id": "q_059",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "RPA",
+      "question": "これまで人間が行っていた定型的なPC操作をソフトウェアのロボットが自動実行する技術を何というか？",
+      "choices": ["A. AI", "B. BPO", "C. ERP", "D. RPA"],
+      "answer": "D",
+      "explanation": "RPA（Robotic Process Automation）はデータ入力・転記・集計など定型的なPC作業をソフトウェアロボットが自動化する技術。人的ミスの削減・業務効率化に活用される。",
+      "termExplanations": {
+        "A": "AI：人間の知的活動をコンピュータで再現する技術。RPAと組み合わせて使われることもある。",
+        "B": "BPO（Business Process Outsourcing）：業務プロセスを外部業者に委託する手法。RPAとは異なり外部化を指す。",
+        "C": "ERP（Enterprise Resource Planning）：企業全体の経営資源を統合管理するシステム。",
+        "D": "RPA（Robotic Process Automation）：定型的なPC操作をソフトウェアロボットが自動実行する技術。"
+      }
+    },
+    {
+      "id": "q_060",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "DX",
+      "question": "デジタル技術を活用して業務プロセス・ビジネスモデル・企業文化を根本から変革することを何というか？",
+      "choices": ["A. IT化", "B. DX", "C. BPR", "D. デジタイゼーション"],
+      "answer": "B",
+      "explanation": "DX（Digital Transformation）はデジタル技術を活用した変革全体を指す。単なるIT化にとどまらず、ビジネスモデルや組織文化の変革まで含む点が特徴。",
+      "termExplanations": {
+        "A": "IT化：業務をシステムやコンピュータで効率化すること。デジタル化の初期段階に相当。",
+        "B": "DX（Digital Transformation）：デジタル技術で業務・ビジネスモデル・文化を根本から変革すること。",
+        "C": "BPR（Business Process Reengineering）：業務プロセスを抜本的に見直し・再設計して効率化を図る手法。",
+        "D": "デジタイゼーション：アナログ情報をデジタルデータに変換すること。DXの前段階。"
+      }
+    },
+    {
+      "id": "q_061",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SLA",
+      "question": "サービス提供者と利用者の間で、提供するサービスの品質・水準を文書として合意したものを何というか？",
+      "choices": ["A. RFP", "B. NDA", "C. SLA", "D. MOU"],
+      "answer": "C",
+      "explanation": "SLA（Service Level Agreement）はサービスの可用性・応答時間・障害対応時間などの品質水準を定めた合意書。未達時のペナルティも規定されることが多い。",
+      "termExplanations": {
+        "A": "RFP（Request For Proposal）：発注者がベンダーに要件を提示し提案を求める文書。",
+        "B": "NDA（Non-Disclosure Agreement）：秘密情報を外部に漏らさないことを約束する契約書。",
+        "C": "SLA（Service Level Agreement）：サービス品質の水準を提供者と利用者が合意した文書。",
+        "D": "MOU（Memorandum of Understanding）：正式契約前の合意内容を確認する覚書。法的拘束力は弱い。"
+      }
+    },
+    {
+      "id": "q_062",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "AI",
+      "question": "人間の知的活動（学習・推論・判断など）をコンピュータで再現する技術を何というか？",
+      "choices": ["A. BI", "B. AI", "C. ML", "D. RPA"],
+      "answer": "B",
+      "explanation": "AI（Artificial Intelligence）は人工知能。画像認識・自然言語処理・ゲームなど多様な分野で活用される。機械学習（ML）や深層学習はAIを実現する手法の一つ。",
+      "termExplanations": {
+        "A": "BI（Business Intelligence）：企業データを分析・可視化して意思決定を支援するツール・技術の総称。",
+        "B": "AI（Artificial Intelligence）：人間の知的活動をコンピュータで再現する技術。機械学習・深層学習を含む。",
+        "C": "ML（Machine Learning）：データから自動的にパターンを学習するAIの手法。AIを実現する技術の一つ。",
+        "D": "RPA（Robotic Process Automation）：定型的なPC操作をソフトウェアロボットが自動実行する技術。"
+      }
+    },
+    {
+      "id": "q_063",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ランサムウェア",
+      "question": "感染したコンピュータのファイルを暗号化して使用不能にし、復号と引き換えに金銭を要求するマルウェアを何というか？",
+      "choices": ["A. スパイウェア", "B. ランサムウェア", "C. ワーム", "D. トロイの木馬"],
+      "answer": "B",
+      "explanation": "ランサムウェアはファイルを暗号化してデータを人質にし、復号キーと引き換えに身代金（ランサム）を要求するマルウェア。近年、病院・インフラへの攻撃事例が増加している。",
+      "termExplanations": {
+        "A": "スパイウェア：ユーザーの行動・入力情報を密かに収集して外部に送信するマルウェア。",
+        "B": "ランサムウェア：ファイルを暗号化して使用不能にし、復号と引き換えに金銭を要求するマルウェア。",
+        "C": "ワーム：ネットワークを通じて自己増殖するマルウェア。ファイルを人質にはしない。",
+        "D": "トロイの木馬：正常なソフトに偽装してバックドアを作るマルウェア。金銭要求は主目的でない。"
+      }
+    },
+    {
+      "id": "q_064",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "アジャイル",
+      "question": "短いサイクルで開発・テスト・リリースを繰り返し、変化に柔軟に対応する開発手法を何というか？",
+      "choices": ["A. ウォーターフォール", "B. スパイラルモデル", "C. アジャイル", "D. プロトタイピング"],
+      "answer": "C",
+      "explanation": "アジャイル開発は短い反復サイクル（スプリント）で開発を進め、顧客フィードバックを取り込みながら変化に対応する手法。スクラム・XPなどのフレームワークがある。",
+      "termExplanations": {
+        "A": "ウォーターフォール：要件定義→設計→実装→テストを順番に進める手法。各工程は原則後戻りしない。",
+        "B": "スパイラルモデル：リスク分析を繰り返しながら設計・試作・評価のサイクルを螺旋状に繰り返す手法。",
+        "C": "アジャイル：短い反復サイクルで開発・テスト・リリースを繰り返し、変化に柔軟に対応する開発手法。",
+        "D": "プロトタイピング：試作品を早期に作成してユーザーに確認しながら開発を進める手法。"
+      }
+    },
+    {
+      "id": "q_065",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ERP",
+      "question": "企業全体の経営資源（ヒト・モノ・カネ・情報）を一元管理し、業務効率化・経営の可視化を実現するシステムを何というか？",
+      "choices": ["A. CRM", "B. SCM", "C. ERP", "D. SFA"],
+      "answer": "C",
+      "explanation": "ERP（Enterprise Resource Planning）は企業資源計画システム。財務・人事・在庫・購買・製造などの業務を統合管理し、全社的な情報共有と意思決定を支援する。",
+      "termExplanations": {
+        "A": "CRM（Customer Relationship Management）：顧客情報を一元管理し、営業・マーケティング・サポートを強化するシステム。",
+        "B": "SCM（Supply Chain Management）：調達から販売までのサプライチェーン全体を最適化する管理手法。",
+        "C": "ERP（Enterprise Resource Planning）：企業全体の経営資源を統合管理するシステム。",
+        "D": "SFA（Sales Force Automation）：営業活動を自動化・効率化するシステム。顧客管理・商談管理などを支援する。"
+      }
+    },
+    {
+      "id": "q_066",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "フィッシング",
+      "question": "正規サービスを装ったメールやWebサイトで、IDやパスワード・クレジットカード情報などを騙し取る攻撃を何というか？",
+      "choices": ["A. スパム", "B. フィッシング", "C. ファーミング", "D. スニッフィング"],
+      "answer": "B",
+      "explanation": "フィッシング（Phishing）は銀行・ECサイトなどを装った偽メール・偽サイトに誘導し、個人情報を入力させて詐取する攻撃。URLや見た目が本物に酷似している点が特徴。",
+      "termExplanations": {
+        "A": "スパム：迷惑メールの総称。広告や詐欺メールを大量送信する行為。",
+        "B": "フィッシング：正規サービスを装った偽サイト・偽メールでID・パスワード・クレカ情報を詐取する攻撃。",
+        "C": "ファーミング：DNS設定を改ざんして正規URLアクセス時に偽サイトに誘導する攻撃。",
+        "D": "スニッフィング：ネットワーク上を流れるパケットを盗聴してデータを不正取得する行為。"
+      }
+    },
+    {
+      "id": "q_067",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "クラウドコンピューティング",
+      "question": "インターネット経由でサーバー・ストレージ・ソフトウェアなどのITリソースをサービスとして提供・利用する形態を何というか？",
+      "choices": ["A. オンプレミス", "B. グリッドコンピューティング", "C. エッジコンピューティング", "D. クラウドコンピューティング"],
+      "answer": "D",
+      "explanation": "クラウドコンピューティングはインターネット経由でITリソースをオンデマンドで利用できる形態。IaaS・PaaS・SaaSの3種類のサービスモデルがある。初期投資不要・スケーラブルな点が特徴。",
+      "termExplanations": {
+        "A": "オンプレミス：自社でサーバーや設備を購入・設置して管理・運用する形態。クラウドの対義語。",
+        "B": "グリッドコンピューティング：複数のコンピュータを連携させて大規模計算を行う分散コンピューティング手法。",
+        "C": "エッジコンピューティング：データ処理をクラウドではなくデータ発生源の近くで行う分散処理の仕組み。",
+        "D": "クラウドコンピューティング：インターネット経由でITリソースをサービスとして提供・利用する形態。"
+      }
+    },
+    {
+      "id": "q_068",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "PoC",
+      "question": "新技術や新しいアイデアが実現可能かどうかを小規模に試験・検証することを何というか？",
+      "choices": ["A. MVP", "B. PoC", "C. プロトタイピング", "D. パイロット導入"],
+      "answer": "B",
+      "explanation": "PoC（Proof of Concept）は概念実証。本格開発の前に技術的な実現可能性・効果を小規模で検証する取り組み。投資リスクを抑えながら方向性を確認できる。",
+      "termExplanations": {
+        "A": "MVP（Minimum Viable Product）：必要最小限の機能を持つ製品を早期にリリースして市場の反応を検証する手法。",
+        "B": "PoC（Proof of Concept）：新技術やアイデアが実現可能かどうかを小規模に試験・検証すること。",
+        "C": "プロトタイピング：試作品を作成してユーザーに確認しながら開発を進める手法。PoCより完成度が高い。",
+        "D": "パイロット導入：本格導入前に一部の部署や地域で試験的に運用して効果を検証すること。"
+      }
+    },
+    {
+      "id": "q_069",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "CRM",
+      "question": "顧客情報を一元管理し、営業・マーケティング・カスタマーサポートを強化して顧客満足度・売上向上を図るシステムを何というか？",
+      "choices": ["A. ERP", "B. SFA", "C. CRM", "D. SCM"],
+      "answer": "C",
+      "explanation": "CRM（Customer Relationship Management）は顧客関係管理システム。顧客の購買履歴・問い合わせ履歴・属性情報を一元管理し、個別最適なサービス提供を可能にする。",
+      "termExplanations": {
+        "A": "ERP（Enterprise Resource Planning）：企業全体の経営資源を統合管理するシステム。顧客管理以外の業務も含む。",
+        "B": "SFA（Sales Force Automation）：営業活動の自動化・効率化を支援するシステム。CRMの一部機能と重複する。",
+        "C": "CRM（Customer Relationship Management）：顧客情報を一元管理し、関係強化・売上向上を図るシステム。",
+        "D": "SCM（Supply Chain Management）：調達から販売までのサプライチェーン全体を最適化する管理手法。"
+      }
+    },
+    {
+      "id": "q_070",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ゼロトラスト",
+      "question": "「すべてのアクセスを信頼しない」を原則とし、社内外を問わず常に認証・検証を行うセキュリティモデルを何というか？",
+      "choices": ["A. 多層防御", "B. ゼロトラスト", "C. ファイアウォール", "D. DMZ"],
+      "answer": "B",
+      "explanation": "ゼロトラスト（Zero Trust）はネットワーク内部も外部も一切信頼しないという考え方。テレワーク普及に伴い従来の境界防御モデルでは不十分となり注目されている。アクセスのたびに認証・認可・検証を行う。",
+      "termExplanations": {
+        "A": "多層防御：ファイアウォール・IDS・EDRなど複数のセキュリティ対策を組み合わせて防御する考え方。",
+        "B": "ゼロトラスト：すべてのアクセスを信頼しないを原則とし、常に認証・検証を行うセキュリティモデル。",
+        "C": "ファイアウォール：IPアドレス・ポート番号を基に通信を制御するセキュリティ装置。境界防御の代表例。",
+        "D": "DMZ：外部と内部の間に設ける中間ネットワーク領域。公開サーバーを安全に配置するために使う。"
+      }
+    },
+    {
+      "id": "q_071",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "OSS",
+      "question": "ソースコードが公開されており、誰でも自由に利用・改変・再配布できるソフトウェアを何というか？",
+      "choices": ["A. フリーウェア", "B. シェアウェア", "C. OSS", "D. プロプライエタリソフトウェア"],
+      "answer": "C",
+      "explanation": "OSS（Open Source Software）はソースコードが公開されたソフトウェア。Linux・Apache・MySQLなどが代表例。無料で利用できるものが多いが、ライセンス条件の確認が必要。",
+      "termExplanations": {
+        "A": "フリーウェア：無料で使えるソフトウェアだが、ソースコードは公開されていない場合が多い。",
+        "B": "シェアウェア：一定期間無料で試用できるが、継続使用には購入が必要なソフトウェア。",
+        "C": "OSS（Open Source Software）：ソースコードが公開されており、自由に利用・改変・再配布できるソフトウェア。",
+        "D": "プロプライエタリソフトウェア：ソースコードが非公開で、利用条件が制限された商用ソフトウェア。"
+      }
+    },
+    {
+      "id": "q_072",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "BYOD",
+      "question": "従業員が個人所有のスマートフォン・PCなどを業務に使用することを許可する企業の方針を何というか？",
+      "choices": ["A. BYOD", "B. MDM", "C. テレワーク", "D. シャドーIT"],
+      "answer": "A",
+      "explanation": "BYOD（Bring Your Own Device）は従業員の私物端末を業務利用させる方針。コスト削減や利便性向上の一方、セキュリティリスク管理が課題となる。",
+      "termExplanations": {
+        "A": "BYOD（Bring Your Own Device）：従業員の私物端末（スマホ・PC）を業務に利用させる方針。",
+        "B": "MDM（Mobile Device Management）：企業が従業員のモバイル端末を一元管理するシステム。BYODのセキュリティ対策として使われる。",
+        "C": "テレワーク：自宅やサテライトオフィスなど会社以外の場所で働く勤務形態。",
+        "D": "シャドーIT：IT部門の承認を得ずに従業員が私的に利用するITサービス・機器。セキュリティリスクになりやすい。"
+      }
+    },
+    {
+      "id": "q_073",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "RFID",
+      "question": "電波を使って非接触でICタグのデータを読み書きする技術を何というか？",
+      "choices": ["A. NFC", "B. Bluetooth", "C. RFID", "D. QRコード"],
+      "answer": "C",
+      "explanation": "RFID（Radio Frequency IDentification）は電波でICタグを読み書きする技術。商品管理・物流・入退室管理・Suicaなどに広く使われる。NFCはRFIDの一種で近距離通信に特化している。",
+      "termExplanations": {
+        "A": "NFC（Near Field Communication）：数cm程度の近距離で通信するRFIDの一種。スマホ決済や交通系ICカードに使用。",
+        "B": "Bluetooth：数m〜数十mの近距離無線通信技術。イヤホンやマウスなど周辺機器との接続に使用。",
+        "C": "RFID（Radio Frequency IDentification）：電波でICタグのデータを非接触で読み書きする技術。物流・在庫管理・入退室管理に活用。",
+        "D": "QRコード：光学的に読み取る二次元バーコード。URLや情報をエンコードして表示する。電波ではなく光を使う点が異なる。"
+      }
+    },
+    {
+      "id": "q_074",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "API",
+      "question": "ソフトウェア同士が機能やデータを共有するための接続仕様・インターフェースを何というか？",
+      "choices": ["A. SDK", "B. IDE", "C. UI", "D. API"],
+      "answer": "D",
+      "explanation": "API（Application Programming Interface）はアプリケーション間でデータや機能をやり取りするための仕様。外部サービスの機能を自分のアプリに組み込む際に使う。",
+      "termExplanations": {
+        "A": "SDK（Software Development Kit）：特定のプラットフォーム向けアプリを開発するためのツール・ライブラリの集合体。",
+        "B": "IDE（Integrated Development Environment）：コードエディタ・デバッガ・ビルドツールを統合した開発環境。",
+        "C": "UI（User Interface）：ユーザーとシステムが情報をやり取りするための画面・操作部分の総称。",
+        "D": "API（Application Programming Interface）：ソフトウェア間で機能やデータをやり取りするための接続仕様。"
+      }
+    },
+    {
+      "id": "q_075",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "MACアドレス",
+      "question": "ネットワーク機器に製造時に割り当てられる、世界で唯一の固有識別番号を何というか？",
+      "choices": ["A. IPアドレス", "B. MACアドレス", "C. ポート番号", "D. サブネットマスク"],
+      "answer": "B",
+      "explanation": "MACアドレス（Media Access Control Address）はNICなどに製造時に付与される48ビットの物理アドレス。同一LAN内での機器識別に使われる。IPアドレスは論理的・可変なのに対し、MACアドレスは物理的・固定。",
+      "termExplanations": {
+        "A": "IPアドレス：ネットワーク上の機器を識別する論理アドレス。ネットワーク管理者が割り当て、変更可能。",
+        "B": "MACアドレス：ネットワーク機器に製造時に付与される固有の物理アドレス。48ビットで構成される。",
+        "C": "ポート番号：通信先のアプリケーションを識別する番号。HTTPは80番、HTTPSは443番など。",
+        "D": "サブネットマスク：IPアドレスのネットワーク部とホスト部を区別するための値。"
+      }
+    },
+    {
+      "id": "q_076",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "DNS",
+      "question": "IPアドレスとドメイン名を相互変換する仕組みを何というか？",
+      "choices": ["A. DHCP", "B. NAT", "C. DNS", "D. ARP"],
+      "answer": "C",
+      "explanation": "DNS（Domain Name System）はドメイン名（例: google.com）をIPアドレスに変換する仕組み。インターネットの電話帳とも呼ばれる。",
+      "termExplanations": {
+        "A": "DHCP（Dynamic Host Configuration Protocol）：ネットワーク接続時にIPアドレスを自動的に割り当てるプロトコル。",
+        "B": "NAT（Network Address Translation）：プライベートIPアドレスをグローバルIPアドレスに変換する技術。",
+        "C": "DNS（Domain Name System）：ドメイン名とIPアドレスを対応付けて管理・変換する仕組み。",
+        "D": "ARP（Address Resolution Protocol）：IPアドレスからMACアドレスを調べるプロトコル。同一LAN内で使用。"
+      }
+    },
+    {
+      "id": "q_077",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "多要素認証（MFA）",
+      "question": "パスワードに加えて、スマートフォンへのコード送信や生体認証など複数の認証方式を組み合わせて本人確認を行う手法を何というか？",
+      "choices": ["A. シングルサインオン", "B. 多要素認証（MFA）", "C. 二段階認証", "D. 生体認証"],
+      "answer": "B",
+      "explanation": "MFA（Multi-Factor Authentication）は「知識情報（パスワード）」「所持情報（スマホ）」「生体情報（指紋）」のうち2つ以上を組み合わせる認証手法。不正アクセスへの耐性が高まる。",
+      "termExplanations": {
+        "A": "シングルサインオン（SSO）：一度の認証で複数のシステム・サービスを利用できる仕組み。",
+        "B": "多要素認証（MFA）：異なる種類の認証要素を2つ以上組み合わせて本人確認を行う手法。",
+        "C": "二段階認証：認証を2回行う手法。MFAの一種だが、同じ種類の要素を2回使う場合も含む点が異なる。",
+        "D": "生体認証：指紋・顔・虹彩など身体的特徴で本人確認する手法。MFAの認証要素の一つ。"
+      }
+    },
+    {
+      "id": "q_078",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SQL",
+      "question": "リレーショナルデータベースのデータを操作・管理するための言語を何というか？",
+      "choices": ["A. HTML", "B. Python", "C. SQL", "D. XML"],
+      "answer": "C",
+      "explanation": "SQL（Structured Query Language）はリレーショナルデータベースを操作するための言語。SELECT（検索）・INSERT（挿入）・UPDATE（更新）・DELETE（削除）などの命令でデータを操作する。",
+      "termExplanations": {
+        "A": "HTML（HyperText Markup Language）：Webページの構造を定義するマークアップ言語。データベース操作には使わない。",
+        "B": "Python：汎用プログラミング言語。SQLと連携してデータベース操作に使うことはあるが、直接操作はSQLが担う。",
+        "C": "SQL（Structured Query Language）：リレーショナルDBを操作するための専用言語。SELECT・INSERT・UPDATE・DELETEが基本命令。",
+        "D": "XML（Extensible Markup Language）：データの構造を記述するマークアップ言語。データ交換に使われるがDB操作言語ではない。"
+      }
+    },
+    {
+      "id": "q_079",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SCM",
+      "question": "原材料の調達から製造・物流・販売までの一連の流れを統合的に管理し、全体最適化を図る手法を何というか？",
+      "choices": ["A. ERP", "B. CRM", "C. SCM", "D. BPR"],
+      "answer": "C",
+      "explanation": "SCM（Supply Chain Management）はサプライチェーン全体を可視化・最適化する管理手法。在庫の削減・リードタイムの短縮・コスト低減が主な目的。",
+      "termExplanations": {
+        "A": "ERP（Enterprise Resource Planning）：企業全体の経営資源を統合管理するシステム。SCMの機能を含む場合もある。",
+        "B": "CRM（Customer Relationship Management）：顧客情報を一元管理し、顧客満足度・売上向上を図るシステム。",
+        "C": "SCM（Supply Chain Management）：調達から販売までのサプライチェーン全体を最適化する管理手法。",
+        "D": "BPR（Business Process Reengineering）：業務プロセスを抜本的に見直し・再設計して効率化を図る手法。"
+      }
+    },
+    {
+      "id": "q_080",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "TCO",
+      "question": "システムの導入費用だけでなく、運用・保守・廃棄までのすべてのコストを合計した総費用を何というか？",
+      "choices": ["A. ROI", "B. TCO", "C. NPV", "D. CAPEX"],
+      "answer": "B",
+      "explanation": "TCO（Total Cost of Ownership）は総所有コスト。購入・導入費用だけでなく、運用・保守・人件費・廃棄コストまで含めた生涯費用を指す。システム選定時の重要な比較指標。",
+      "termExplanations": {
+        "A": "ROI（Return on Investment）：投資対効果。投資額に対してどれだけの利益が得られたかを示す指標。",
+        "B": "TCO（Total Cost of Ownership）：導入から廃棄までのすべてのコストを合計した総所有コスト。",
+        "C": "NPV（Net Present Value）：将来のキャッシュフローを現在価値に換算した正味現在価値。投資判断に使う。",
+        "D": "CAPEX（Capital Expenditure）：設備投資など長期的な資産取得に係る資本的支出。TCOの一部。"
+      }
+    },
+    {
+      "id": "q_081",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "RFP",
+      "question": "システム開発を外部に発注する際、要件や条件を記載してベンダーに提出を求める文書を何というか？",
+      "choices": ["A. RFP", "B. SLA", "C. NDA", "D. RFI"],
+      "answer": "A",
+      "explanation": "RFP（Request For Proposal）は発注者がベンダーに対し、システムの要件・条件・評価基準などを示して提案を求める文書。調達プロセスの出発点となる。",
+      "termExplanations": {
+        "A": "RFP（Request For Proposal）：発注者がベンダーに要件を提示し提案を求める文書。調達プロセスの出発点。",
+        "B": "SLA（Service Level Agreement）：サービス品質の水準を提供者と利用者が合意した文書。",
+        "C": "NDA（Non-Disclosure Agreement）：秘密情報を外部に漏らさないことを約束する契約書。",
+        "D": "RFI（Request For Information）：発注前にベンダーの製品・サービス情報を収集するための情報提供依頼書。"
+      }
+    },
+    {
+      "id": "q_082",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "NDA",
+      "question": "業務上知り得た秘密情報を外部に漏らさないことを当事者間で約束する契約書を何というか？",
+      "choices": ["A. SLA", "B. RFP", "C. NDA", "D. MOU"],
+      "answer": "C",
+      "explanation": "NDA（Non-Disclosure Agreement）は秘密保持契約書。取引開始前や業務委託時に締結し、情報漏洩を法的に防止する。守秘義務契約とも呼ばれる。",
+      "termExplanations": {
+        "A": "SLA（Service Level Agreement）：サービス品質の水準を提供者と利用者が合意した文書。",
+        "B": "RFP（Request For Proposal）：発注者がベンダーに要件を提示し提案を求める文書。",
+        "C": "NDA（Non-Disclosure Agreement）：秘密情報を外部に漏らさないことを約束する契約書。守秘義務契約とも呼ぶ。",
+        "D": "MOU（Memorandum of Understanding）：正式契約前の合意内容を確認する覚書。法的拘束力は弱い。"
+      }
+    },
+    {
+      "id": "q_083",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SWOT分析",
+      "question": "企業の強み・弱み・機会・脅威の4つの観点から現状を分析する経営フレームワークを何というか？",
+      "choices": ["A. PEST分析", "B. SWOT分析", "C. 3C分析", "D. ファイブフォース分析"],
+      "answer": "B",
+      "explanation": "SWOT分析はStrengths（強み）・Weaknesses（弱み）・Opportunities（機会）・Threats（脅威）の頭文字をとったフレームワーク。内部環境と外部環境を整理して戦略立案に活用する。",
+      "termExplanations": {
+        "A": "PEST分析：政治・経済・社会・技術の外部マクロ環境を分析するフレームワーク。",
+        "B": "SWOT分析：強み・弱み・機会・脅威の4要素で内外環境を分析する経営フレームワーク。",
+        "C": "3C分析：顧客・競合・自社の3視点で市場環境を分析するフレームワーク。",
+        "D": "ファイブフォース分析：業界の競争要因（売り手・買い手・新規参入・代替品・競合）を分析するポーターのフレームワーク。"
+      }
+    },
+    {
+      "id": "q_084",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "PPM",
+      "question": "複数の事業・製品を「市場成長率」と「市場シェア」の2軸で分類し、経営資源の配分を判断するフレームワークを何というか？",
+      "choices": ["A. バランススコアカード", "B. PPM", "C. SWOT分析", "D. バリューチェーン分析"],
+      "answer": "B",
+      "explanation": "PPM（Product Portfolio Management）は事業を「花形」「金のなる木」「問題児」「負け犬」の4象限に分類し、投資・撤退の意思決定を支援するフレームワーク。",
+      "termExplanations": {
+        "A": "バランススコアカード（BSC）：財務・顧客・業務プロセス・学習成長の4視点で経営を評価するフレームワーク。",
+        "B": "PPM（Product Portfolio Management）：市場成長率と市場シェアで事業を4象限に分類し、資源配分を判断するフレームワーク。",
+        "C": "SWOT分析：強み・弱み・機会・脅威の4要素で内外環境を分析するフレームワーク。",
+        "D": "バリューチェーン分析：原材料調達から販売・サービスまでの各業務が価値を生む連鎖を分析するフレームワーク。"
+      }
+    },
+    {
+      "id": "q_085",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SaaS",
+      "question": "インターネット経由でソフトウェアをサービスとして提供・利用するクラウドサービスの形態を何というか？",
+      "choices": ["A. IaaS", "B. PaaS", "C. SaaS", "D. FaaS"],
+      "answer": "C",
+      "explanation": "SaaS（Software as a Service）はソフトウェアをインターネット経由で提供するサービス。GmailやSalesforceが代表例。利用者はインフラ・プラットフォーム・ソフトウェアすべてをクラウド側に任せられる。",
+      "termExplanations": {
+        "A": "IaaS（Infrastructure as a Service）：サーバー・ストレージ・ネットワークなどインフラをクラウドで提供するサービス。",
+        "B": "PaaS（Platform as a Service）：アプリ開発・実行に必要なプラットフォームをクラウドで提供するサービス。",
+        "C": "SaaS（Software as a Service）：ソフトウェアをインターネット経由でサービスとして提供する形態。",
+        "D": "FaaS（Function as a Service）：関数単位でプログラムを実行できるサーバーレスのクラウドサービス形態。"
+      }
+    },
+    {
+      "id": "q_086",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "WBS",
+      "question": "プロジェクトの作業全体を階層的に分解し、管理しやすい単位に整理した図を何というか？",
+      "choices": ["A. ガントチャート", "B. アローダイアグラム", "C. WBS", "D. マインドマップ"],
+      "answer": "C",
+      "explanation": "WBS（Work Breakdown Structure）は作業分解構成図。プロジェクト全体の作業を階層的に分解することで、作業範囲の明確化・担当割り当て・進捗管理をしやすくする。",
+      "termExplanations": {
+        "A": "ガントチャート：作業の開始・終了時期を横棒で表したスケジュール管理図。WBSと組み合わせて使われることが多い。",
+        "B": "アローダイアグラム：作業を矢印で表し、依存関係とクリティカルパスを求める工程管理図。",
+        "C": "WBS（Work Breakdown Structure）：プロジェクトの作業を階層的に分解した図。作業範囲の明確化に使う。",
+        "D": "マインドマップ：中心テーマから放射状にアイデアを展開する思考整理ツール。プロジェクト管理には使わない。"
+      }
+    },
+    {
+      "id": "q_087",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SQLインジェクション",
+      "question": "Webアプリケーションの入力フォームに不正なSQL文を挿入して、データベースを不正操作する攻撃を何というか？",
+      "choices": ["A. クロスサイトスクリプティング", "B. バッファオーバーフロー", "C. SQLインジェクション", "D. ディレクトリトラバーサル"],
+      "answer": "C",
+      "explanation": "SQLインジェクションは入力フォームに悪意あるSQL文を挿入し、データベースの不正操作・情報漏洩・改ざんを引き起こす攻撃。入力値のバリデーション・プリペアドステートメントで防御できる。",
+      "termExplanations": {
+        "A": "クロスサイトスクリプティング（XSS）：悪意あるスクリプトをWebページに埋め込み、閲覧者のブラウザで実行させる攻撃。",
+        "B": "バッファオーバーフロー：メモリ領域に許容量を超えるデータを送り込み、誤動作を引き起こす攻撃。",
+        "C": "SQLインジェクション：入力フォームに不正なSQL文を挿入してDBを不正操作する攻撃。",
+        "D": "ディレクトリトラバーサル：「../」を利用してWebサーバー上の非公開ファイルに不正アクセスする攻撃。"
+      }
+    },
+    {
+      "id": "q_088",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "BPR",
+      "question": "既存の業務プロセスを抜本的に見直し・再設計して、コスト・品質・スピードを大幅に改善する手法を何というか？",
+      "choices": ["A. BPO", "B. BPR", "C. RPA", "D. ERP導入"],
+      "answer": "B",
+      "explanation": "BPR（Business Process Reengineering）は業務プロセスの根本的な再設計。既存の慣習を捨て、ゼロベースで業務を再構築することで劇的な改善を目指す。",
+      "termExplanations": {
+        "A": "BPO（Business Process Outsourcing）：業務プロセスを外部専門業者に委託する手法。改善ではなく外部化が目的。",
+        "B": "BPR（Business Process Reengineering）：業務プロセスをゼロベースで抜本的に見直し・再設計する手法。",
+        "C": "RPA（Robotic Process Automation）：定型的なPC操作をソフトウェアロボットが自動化する技術。BPRの手段になりうる。",
+        "D": "ERP導入：企業全体の業務を統合管理するシステムの導入。BPRのきっかけになることも多い。"
+      }
+    },
+    {
+      "id": "q_089",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "VLAN",
+      "question": "物理的なネットワーク構成に関わらず、ソフトウェアの設定によって論理的に分割された仮想的なネットワークを何というか？",
+      "choices": ["A. VPN", "B. VLAN", "C. SDN", "D. サブネット"],
+      "answer": "B",
+      "explanation": "VLAN（Virtual LAN）はスイッチの設定により物理的な配線に関係なくネットワークを論理的に分割する技術。部署ごとにネットワーク分離・セキュリティ強化・ブロードキャスト制御に使われる。",
+      "termExplanations": {
+        "A": "VPN（Virtual Private Network）：公共ネットワーク上に暗号化された仮想専用線を構築する技術。",
+        "B": "VLAN（Virtual LAN）：スイッチの設定でネットワークを論理的に分割する技術。物理配線を変えずに分離できる。",
+        "C": "SDN（Software Defined Networking）：ネットワーク機器の制御をソフトウェアで一元管理する技術。",
+        "D": "サブネット：IPアドレスを論理的に分割してネットワークを細分化する手法。VLANと組み合わせて使われることが多い。"
+      }
+    },
+    {
+      "id": "q_090",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "DDoS攻撃",
+      "question": "多数のコンピュータから標的サーバーに大量のリクエストを送り、サービスを停止・妨害する攻撃を何というか？",
+      "choices": ["A. DoS攻撃", "B. DDoS攻撃", "C. ブルートフォース攻撃", "D. マン・イン・ザ・ミドル攻撃"],
+      "answer": "B",
+      "explanation": "DDoS（Distributed Denial of Service）攻撃は多数の踏み台コンピュータから一斉に大量リクエストを送りつけてサービスを麻痺させる攻撃。DoSは1台からの攻撃、DDoSは多数からの分散攻撃。",
+      "termExplanations": {
+        "A": "DoS攻撃（Denial of Service）：1台のコンピュータから大量リクエストを送り、サービスを停止させる攻撃。",
+        "B": "DDoS攻撃（Distributed DoS）：多数のコンピュータから一斉に攻撃する分散型サービス妨害攻撃。",
+        "C": "ブルートフォース攻撃：パスワードを総当たりで試みる攻撃。",
+        "D": "マン・イン・ザ・ミドル攻撃：通信の中間に割り込んでデータを盗聴・改ざんする攻撃。"
+      }
+    },
+    {
+      "id": "q_091",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "OJT",
+      "question": "職場において、実際の業務を通じて上司・先輩が部下・後輩を指導・育成する教育手法を何というか？",
+      "choices": ["A. OFF-JT", "B. OJT", "C. eラーニング", "D. メンタリング"],
+      "answer": "B",
+      "explanation": "OJT（On-the-Job Training）は現場での実務を通じた教育訓練。実践的スキルが身につきやすい一方、指導者の能力に依存する面がある。OFF-JTは職場外での研修・セミナーを指す。",
+      "termExplanations": {
+        "A": "OFF-JT（Off the Job Training）：職場外での集合研修・セミナー・講座などによる教育手法。体系的な知識習得に適している。",
+        "B": "OJT（On-the-Job Training）：実際の業務を通じて職場で行う教育訓練。実践的スキルの習得に効果的。",
+        "C": "eラーニング：インターネットを通じてオンラインで学習する教育形態。OFF-JTの一種。",
+        "D": "メンタリング：経験豊富なメンターが相談・支援を通じて成長を促す指導スタイル。OJTより広い支援を含む。"
+      }
+    },
+    {
+      "id": "q_092",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "DMZ",
+      "question": "外部ネットワークと内部ネットワークの間に設ける、公開サーバーを配置するための中間ネットワーク領域を何というか？",
+      "choices": ["A. VPN", "B. VLAN", "C. DMZ", "D. プロキシ"],
+      "answer": "C",
+      "explanation": "DMZ（DeMilitarized Zone）は非武装地帯。WebサーバーやメールサーバーなどをDMZに配置することで、外部からアクセスされても内部ネットワークへの侵入を防ぐ。",
+      "termExplanations": {
+        "A": "VPN（Virtual Private Network）：公共ネットワーク上に暗号化された仮想専用線を構築する技術。",
+        "B": "VLAN（Virtual LAN）：スイッチの設定でネットワークを論理的に分割する技術。",
+        "C": "DMZ（DeMilitarized Zone）：外部と内部の間に設ける中間ネットワーク領域。公開サーバーを安全に配置するために使う。",
+        "D": "プロキシサーバー：クライアントの代理としてインターネットにアクセスするサーバー。"
+      }
+    },
+    {
+      "id": "q_093",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "VPN",
+      "question": "公共ネットワーク上に暗号化された仮想的な専用線を構築し、安全に通信する技術を何というか？",
+      "choices": ["A. DMZ", "B. VPN", "C. VLAN", "D. ファイアウォール"],
+      "answer": "B",
+      "explanation": "VPN（Virtual Private Network）はインターネットなどの公共ネットワーク上に暗号化された仮想専用線を構築する技術。テレワーク時の社内システムへの安全なアクセスや拠点間通信に広く使われる。",
+      "termExplanations": {
+        "A": "DMZ（DeMilitarized Zone）：外部と内部の間に設ける中間ネットワーク領域。通信の暗号化はしない。",
+        "B": "VPN（Virtual Private Network）：公共ネットワーク上に暗号化された仮想専用線を構築する技術。",
+        "C": "VLAN（Virtual LAN）：スイッチの設定でネットワークを論理的に分割する技術。暗号化の機能はない。",
+        "D": "ファイアウォール：通信を制御するセキュリティ装置。VPNとは別の役割を担う。"
+      }
+    },
+    {
+      "id": "q_094",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "RFI",
+      "question": "システム発注前の段階で、ベンダーの製品・サービス・技術情報を収集するために送付する文書を何というか？",
+      "choices": ["A. RFP", "B. RFI", "C. SLA", "D. NDA"],
+      "answer": "B",
+      "explanation": "RFI（Request For Information）は情報提供依頼書。RFP作成前の情報収集段階でベンダーに送付し、製品・サービスの概要・費用感・技術情報を把握するために使う。",
+      "termExplanations": {
+        "A": "RFP（Request For Proposal）：具体的な要件を示してベンダーに提案を求める文書。RFIより詳細な段階で使う。",
+        "B": "RFI（Request For Information）：発注前にベンダーの製品・サービス情報を収集するための情報提供依頼書。",
+        "C": "SLA（Service Level Agreement）：サービス品質の水準を提供者と利用者が合意した文書。",
+        "D": "NDA（Non-Disclosure Agreement）：秘密情報を外部に漏らさないことを約束する契約書。"
+      }
+    },
+    {
+      "id": "q_095",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SDGs",
+      "question": "2030年までに達成すべき17の目標を掲げた、国連が採択した持続可能な開発のための国際的な目標を何というか？",
+      "choices": ["A. ESG", "B. CSR", "C. SDGs", "D. MDGs"],
+      "answer": "C",
+      "explanation": "SDGs（Sustainable Development Goals）は2015年に国連が採択した持続可能な開発目標。貧困・気候変動・教育・ジェンダー平等など17のゴールと169のターゲットから構成される。",
+      "termExplanations": {
+        "A": "ESG：環境（Environment）・社会（Social）・ガバナンス（Governance）を重視した投資・経営の考え方。",
+        "B": "CSR（Corporate Social Responsibility）：企業が社会・環境問題に責任を持って取り組む企業の社会的責任。",
+        "C": "SDGs（Sustainable Development Goals）：2030年までに達成すべき17の国際的な持続可能な開発目標。",
+        "D": "MDGs（Millennium Development Goals）：SDGsの前身で2000〜2015年に設定されていた8つの開発目標。"
+      }
+    },
+    {
+      "id": "q_096",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SFA",
+      "question": "営業担当者の活動（商談・顧客訪問・案件管理）を記録・分析して営業プロセスを効率化するシステムを何というか？",
+      "choices": ["A. CRM", "B. ERP", "C. SFA", "D. SCM"],
+      "answer": "C",
+      "explanation": "SFA（Sales Force Automation）は営業支援システム。営業活動の記録・案件管理・行動分析を自動化し、営業効率と売上予測の精度を高める。CRMと連携して使われることが多い。",
+      "termExplanations": {
+        "A": "CRM（Customer Relationship Management）：顧客情報を一元管理し、顧客満足度・売上向上を図るシステム。SFAより広い顧客管理を担う。",
+        "B": "ERP（Enterprise Resource Planning）：企業全体の経営資源を統合管理するシステム。営業に限らず全業務を対象とする。",
+        "C": "SFA（Sales Force Automation）：営業活動の記録・案件管理・行動分析を自動化する営業支援システム。",
+        "D": "SCM（Supply Chain Management）：調達から販売までのサプライチェーン全体を最適化する管理手法。"
+      }
+    },
+    {
+      "id": "q_097",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "CSRF",
+      "question": "ログイン済みのユーザーに意図しない操作を実行させる攻撃を何というか？",
+      "choices": ["A. SQLインジェクション", "B. クロスサイトスクリプティング", "C. CSRF", "D. ディレクトリトラバーサル"],
+      "answer": "C",
+      "explanation": "CSRF（Cross-Site Request Forgery）はクロスサイトリクエストフォージェリ。被害者がログイン中のサービスに対し、攻撃者が用意したリンクを踏ませることで意図しない操作（送金・設定変更等）を実行させる攻撃。",
+      "termExplanations": {
+        "A": "SQLインジェクション：入力フォームに不正なSQL文を挿入してDBを不正操作する攻撃。",
+        "B": "クロスサイトスクリプティング（XSS）：悪意あるスクリプトをWebページに埋め込み、閲覧者のブラウザで実行させる攻撃。",
+        "C": "CSRF（Cross-Site Request Forgery）：ログイン済みユーザーに意図しないリクエストを送信させる攻撃。",
+        "D": "ディレクトリトラバーサル：「../」を利用してWebサーバー上の非公開ファイルに不正アクセスする攻撃。"
+      }
+    },
+    {
+      "id": "q_098",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "UI・UX",
+      "question": "ユーザーがシステムと接する画面・操作部分をUI、利用を通じて得られる体験・満足度の総体をUXという。次のうち正しい説明はどれか？",
+      "choices": ["A. UIは体験全体、UXは画面デザインのことである", "B. UIは画面・操作部分、UXは利用体験全体のことである", "C. UIとUXは同じ意味で使われる", "D. UXはシステムの性能指標である"],
+      "answer": "B",
+      "explanation": "UI（User Interface）はユーザーが直接触れる画面・ボタン・入力欄などの接点。UX（User Experience）はそのシステムを使うことで得られる体験・感情・満足度の総体。良いUIがUX向上につながる。",
+      "termExplanations": {
+        "A": "UIは体験全体・UXは画面デザインという説明は逆。UIが画面、UXが体験全体が正しい。",
+        "B": "UI（User Interface）は画面・操作部分、UX（User Experience）は利用を通じた体験全体。正しい説明。",
+        "C": "UIとUXは関連するが異なる概念。UIはUXを構成する要素の一つ。",
+        "D": "UXは性能指標ではなく、ユーザーの体験・感情・満足度を指す概念。"
+      }
+    },
+    {
+      "id": "q_099",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "テレワーク",
+      "question": "ICTを活用して、時間や場所にとらわれず柔軟に働く勤務形態を何というか？",
+      "choices": ["A. フレックスタイム制", "B. テレワーク", "C. ジョブ型雇用", "D. リモートデスクトップ"],
+      "answer": "B",
+      "explanation": "テレワークは自宅・カフェ・サテライトオフィスなど会社以外の場所でICTを使って働く形態。在宅勤務・モバイルワーク・サテライトオフィス勤務が含まれる。VPNを活用したセキュリティ対策が重要。",
+      "termExplanations": {
+        "A": "フレックスタイム制：出退勤時間を柔軟に決められる制度。場所ではなく時間の柔軟性を指す。",
+        "B": "テレワーク：ICTを活用して場所にとらわれず働く勤務形態。在宅・モバイル・サテライトオフィス勤務を含む。",
+        "C": "ジョブ型雇用：職務内容を明確に定義して採用・評価する雇用形態。テレワークとは別の概念。",
+        "D": "リモートデスクトップ：遠隔地から別のコンピュータを操作する技術。テレワークの手段の一つ。"
+      }
+    },
+    {
+      "id": "q_100",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "RoHS指令",
+      "question": "電子・電気機器に含まれる有害物質（鉛・水銀・カドミウムなど）の使用を規制するEUの指令を何というか？",
+      "choices": ["A. WEEE指令", "B. RoHS指令", "C. REACH規則", "D. CE指令"],
+      "answer": "B",
+      "explanation": "RoHS（Restriction of Hazardous Substances）指令はEUが定める電子機器中の有害物質規制。鉛・水銀・カドミウム・六価クロムなど6物質の使用を制限する。EU向け製品の製造・販売に対応が必須。",
+      "termExplanations": {
+        "A": "WEEE指令：電子・電気機器廃棄物の適正処理・リサイクルを義務付けるEU指令。RoHSと合わせて適用される。",
+        "B": "RoHS指令：電子・電気機器に含まれる有害物質の使用を規制するEU指令。",
+        "C": "REACH規則：化学物質の登録・評価・認可・制限を定めるEU規則。RoHSより広い化学物質を対象とする。",
+        "D": "CE指令：EU市場で製品を販売する際に必要な安全基準適合マーク（CEマーキング）の根拠となる指令群の総称。"
+      }
+    },
+    {
+      "id": "q_101",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "BtoB",
+      "question": "企業間で商品・サービスの取引を行うビジネス形態を何というか？",
+      "choices": ["A. BtoC", "B. BtoB", "C. CtoC", "D. GtoB"],
+      "answer": "B",
+      "explanation": "BtoB（Business to Business）は企業間取引。原材料・部品・システム・サービスなどを企業同士が取引する形態。受発注システム・EDIなどが活用される。",
+      "termExplanations": {
+        "A": "BtoC（Business to Consumer）：企業と一般消費者の間の取引。ECサイト・小売店などが該当。",
+        "B": "BtoB（Business to Business）：企業間での商品・サービスの取引形態。",
+        "C": "CtoC（Consumer to Consumer）：一般消費者同士の取引。フリマアプリ・オークションサイトなどが該当。",
+        "D": "GtoB（Government to Business）：行政機関と企業の間の取引・サービス。電子入札などが該当。"
+      }
+    },
+    {
+      "id": "q_102",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SEO",
+      "question": "検索エンジンの検索結果で自社サイトを上位に表示させるための施策を何というか？",
+      "choices": ["A. SEM", "B. SEO", "C. SNSマーケティング", "D. コンテンツマーケティング"],
+      "answer": "B",
+      "explanation": "SEO（Search Engine Optimization）は検索エンジン最適化。キーワード設計・コンテンツ充実・被リンク獲得・サイト高速化などの施策で検索順位を上げ、自然流入を増やす。",
+      "termExplanations": {
+        "A": "SEM（Search Engine Marketing）：検索エンジンを使ったマーケティング全般。SEOとリスティング広告を含む広い概念。",
+        "B": "SEO（Search Engine Optimization）：検索エンジンの検索結果で自社サイトを上位表示させるための最適化施策。",
+        "C": "SNSマーケティング：SNSを活用して商品・サービスを訴求するマーケティング手法。",
+        "D": "コンテンツマーケティング：有益なコンテンツを継続的に提供して顧客を獲得・育成するマーケティング手法。"
+      }
+    },
+    {
+      "id": "q_103",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "JANコード",
+      "question": "日本の流通業界で標準的に使われる、商品を識別するための13桁または8桁のバーコードを何というか？",
+      "choices": ["A. QRコード", "B. JANコード", "C. RFIDタグ", "D. ITFコード"],
+      "answer": "B",
+      "explanation": "JANコード（Japan Article Number）はスーパーやコンビニで商品に貼られているバーコード。国コード・メーカーコード・商品コード・チェックデジットで構成される。国際規格EAN-13に対応。",
+      "termExplanations": {
+        "A": "QRコード：縦横2次元のマトリクス型コード。URLや文字情報を大量に格納できる。",
+        "B": "JANコード：日本の流通業界で標準使用される13桁または8桁の一次元バーコード。",
+        "C": "RFIDタグ：電波で非接触にデータを読み書きするICタグ。バーコードより多くの情報を格納できる。",
+        "D": "ITFコード：物流用の段ボール箱などに使われる一次元バーコード。偶数桁の数字を表現する。"
+      }
+    },
+    {
+      "id": "q_104",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "BCM",
+      "question": "BCPを継続的に策定・維持・改善し、組織全体の事業継続能力を高めるための管理活動を何というか？",
+      "choices": ["A. BCP", "B. BCM", "C. DR", "D. BCMS"],
+      "answer": "B",
+      "explanation": "BCM（Business Continuity Management）は事業継続管理。BCPを一度作って終わりにせず、訓練・見直し・改善のサイクルを回して継続的に事業継続能力を高める組織的な管理活動。",
+      "termExplanations": {
+        "A": "BCP（Business Continuity Plan）：緊急事態発生時に重要業務を継続・早期復旧するための計画書そのもの。",
+        "B": "BCM（Business Continuity Management）：BCPを継続的に策定・維持・改善する組織的な管理活動。",
+        "C": "DR（Disaster Recovery）：災害などによるシステム障害から復旧するための手順・設備の総称。",
+        "D": "BCMS（Business Continuity Management System）：BCMを体系的に運用するための管理システム。ISO 22301として規格化されている。"
+      }
+    },
+    {
+      "id": "q_105",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ESG",
+      "question": "企業評価・投資判断において、財務情報だけでなく環境・社会・ガバナンスの3要素を重視する考え方を何というか？",
+      "choices": ["A. CSR", "B. SDGs", "C. ESG", "D. SRI"],
+      "answer": "C",
+      "explanation": "ESG（Environmental・Social・Governance）は環境・社会・企業統治の頭文字。ESG投資は長期的な企業価値・リスク管理の観点からこれらを評価基準に加える投資手法。SDGsの達成とも密接に関連する。",
+      "termExplanations": {
+        "A": "CSR（Corporate Social Responsibility）：企業の社会的責任。ESGより広い概念で、ボランティア活動なども含む。",
+        "B": "SDGs：国連が定めた持続可能な開発目標17項目。ESGとは補完的な関係にある。",
+        "C": "ESG（Environmental・Social・Governance）：環境・社会・ガバナンスの3要素を企業評価に取り込む考え方。",
+        "D": "SRI（Socially Responsible Investment）：社会的責任投資。ESGの前身となる概念で、倫理的基準で投資先を選ぶ。"
+      }
+    },
+    {
+      "id": "q_106",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ニューラルネットワーク",
+      "question": "人間の脳の神経細胞（ニューロン）の仕組みを模倣したAIの学習モデルを何というか？",
+      "choices": ["A. 決定木", "B. ニューラルネットワーク", "C. サポートベクターマシン", "D. ベイズ推定"],
+      "answer": "B",
+      "explanation": "ニューラルネットワークは複数の層に並んだノード（ニューロン）が重み付きで接続された機械学習モデル。多層化したものがディープラーニング（深層学習）で、画像認識・自然言語処理などで高い性能を発揮する。",
+      "termExplanations": {
+        "A": "決定木：データを条件で分岐させて分類・予測する機械学習モデル。結果の解釈がしやすい。",
+        "B": "ニューラルネットワーク：脳の神経細胞を模倣した機械学習モデル。多層化するとディープラーニングになる。",
+        "C": "サポートベクターマシン（SVM）：データを分類するための境界線を最適化する機械学習モデル。",
+        "D": "ベイズ推定：確率論に基づいてデータから事後確率を推定する手法。スパムフィルターなどに使われる。"
+      }
+    },
+    {
+      "id": "q_107",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ブロックチェーン",
+      "question": "取引履歴をブロックと呼ぶ単位で連鎖的に記録し、改ざんが極めて困難な分散型台帳技術を何というか？",
+      "choices": ["A. クラウドストレージ", "B. ブロックチェーン", "C. 分散ファイルシステム", "D. データウェアハウス"],
+      "answer": "B",
+      "explanation": "ブロックチェーンは取引データをブロック単位でチェーン状に連結し、多数の参加者が分散して保持する技術。一部を改ざんすると後続ブロックとの整合性が崩れるため改ざんが困難。暗号資産・スマートコントラクトに活用される。",
+      "termExplanations": {
+        "A": "クラウドストレージ：インターネット経由でデータを保存・共有するサービス。中央集権型で管理者が存在する。",
+        "B": "ブロックチェーン：取引履歴をブロックで連鎖記録し、分散管理することで改ざんを困難にする技術。",
+        "C": "分散ファイルシステム：複数のサーバーにデータを分散して保存・管理する仕組み。",
+        "D": "データウェアハウス：大量のデータを統合・蓄積して分析に活用するためのデータベース。"
+      }
+    },
+    {
+      "id": "q_108",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "DevOps",
+      "question": "開発（Development）と運用（Operations）が連携・協力し、継続的にシステムを改善・デリバリーする文化・手法を何というか？",
+      "choices": ["A. アジャイル", "B. DevOps", "C. CI/CD", "D. スクラム"],
+      "answer": "B",
+      "explanation": "DevOpsは開発チームと運用チームが連携して、自動化ツールを活用しながらシステムを迅速・継続的にリリース・改善する文化・手法。CI/CDはDevOpsを実現する具体的な技術手法。",
+      "termExplanations": {
+        "A": "アジャイル：短い反復サイクルで開発を進める手法。DevOpsはアジャイルを運用まで拡張した考え方。",
+        "B": "DevOps：開発と運用が連携して継続的にシステムを改善・デリバリーする文化・手法。",
+        "C": "CI/CD（Continuous Integration/Continuous Delivery）：コードの統合・テスト・デプロイを自動化する手法。DevOpsの実践手段。",
+        "D": "スクラム：アジャイル開発のフレームワークの一つ。DevOpsとは別の概念。"
+      }
+    },
+    {
+      "id": "q_109",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ITIL",
+      "question": "ITサービスマネジメントのベストプラクティスをまとめたフレームワークで、IT運用管理の標準的指針となるものを何というか？",
+      "choices": ["A. COBIT", "B. ITIL", "C. ISO 27001", "D. PMBOK"],
+      "answer": "B",
+      "explanation": "ITIL（IT Infrastructure Library）はITサービスの設計・移行・運用・改善のベストプラクティス集。英国政府が発行し、世界標準のITサービス管理フレームワークとして広く採用されている。",
+      "termExplanations": {
+        "A": "COBIT：ITガバナンスとITマネジメントのフレームワーク。内部統制・監査に活用される。",
+        "B": "ITIL（IT Infrastructure Library）：ITサービスマネジメントのベストプラクティス集。IT運用管理の世界標準指針。",
+        "C": "ISO 27001：情報セキュリティマネジメントシステム（ISMS）の国際規格。",
+        "D": "PMBOK（Project Management Body of Knowledge）：プロジェクトマネジメントのベストプラクティス集。"
+      }
+    },
+    {
+      "id": "q_110",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ファイアウォール",
+      "question": "外部ネットワークから内部ネットワークへの不正アクセスを遮断し、通信を制御するセキュリティ装置を何というか？",
+      "choices": ["A. IDS", "B. WAF", "C. ファイアウォール", "D. プロキシサーバー"],
+      "answer": "C",
+      "explanation": "ファイアウォールはIPアドレス・ポート番号・プロトコルに基づいて通信を許可・遮断するセキュリティ装置。外部からの不正アクセスや不審な通信を防ぐ境界防御の基本。",
+      "termExplanations": {
+        "A": "IDS（Intrusion Detection System）：不正侵入を検知して管理者に通知するシステム。通信の遮断は行わない。",
+        "B": "WAF（Web Application Firewall）：WebアプリへのSQLインジェクション・XSSなどの攻撃を検知・遮断する装置。",
+        "C": "ファイアウォール：IPアドレス・ポート番号・プロトコルを基に通信を許可・遮断するセキュリティ装置。",
+        "D": "プロキシサーバー：クライアントの代理としてインターネットにアクセスするサーバー。"
+      }
+    },
+    {
+      "id": "q_111",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "WAF",
+      "question": "WebアプリケーションへのSQLインジェクション・XSSなどの攻撃を検知・遮断する専用のセキュリティ装置を何というか？",
+      "choices": ["A. ファイアウォール", "B. IPS", "C. WAF", "D. UTM"],
+      "answer": "C",
+      "explanation": "WAF（Web Application Firewall）はWebアプリケーション層の攻撃に特化したセキュリティ装置。通常のファイアウォールでは防げないSQLインジェクション・XSS・CSRFなどのアプリ層攻撃を検知・遮断する。",
+      "termExplanations": {
+        "A": "ファイアウォール：IPアドレス・ポート番号レベルで通信を制御する装置。アプリ層の攻撃は検知できない。",
+        "B": "IPS（Intrusion Prevention System）：不正侵入を検知して自動遮断するシステム。WAFよりネットワーク層寄り。",
+        "C": "WAF（Web Application Firewall）：Webアプリへの攻撃（SQLインジェクション・XSSなど）を検知・遮断する専用装置。",
+        "D": "UTM（Unified Threat Management）：ファイアウォール・IDS/IPS・ウイルス対策などを統合したセキュリティ装置。"
+      }
+    },
+    {
+      "id": "q_112",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "IDS・IPS",
+      "question": "ネットワークへの不正侵入を「検知して通知する」装置と「検知して自動遮断する」装置をそれぞれ何というか？",
+      "choices": ["A. IDSが遮断、IPSが検知", "B. IDSが検知・通知、IPSが検知・遮断", "C. IDSもIPSも同じ機能", "D. IDSがアプリ層、IPSがネットワーク層を担当"],
+      "answer": "B",
+      "explanation": "IDS（Intrusion Detection System）は不正侵入を検知して管理者に通知するシステム。IPS（Intrusion Prevention System）は検知に加えて自動的に通信を遮断・防御する。IPSはIDSの機能を包含している。",
+      "termExplanations": {
+        "A": "IDSが遮断・IPSが検知という説明は逆。IDSが検知のみ、IPSが検知＋遮断が正しい。",
+        "B": "IDS（Intrusion Detection System）は検知・通知のみ、IPS（Intrusion Prevention System）は検知＋自動遮断。正しい説明。",
+        "C": "IDSとIPSは関連するが異なる機能を持つ。IPSはIDSより積極的な防御を行う。",
+        "D": "役割の違いはアプリ層・ネットワーク層の違いではなく、検知のみか遮断まで行うかの違い。"
+      }
+    },
+    {
+      "id": "q_113",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "マルウェア",
+      "question": "コンピュータに悪影響を与える悪意あるソフトウェアの総称を何というか？",
+      "choices": ["A. スパイウェア", "B. マルウェア", "C. アドウェア", "D. グレーウェア"],
+      "answer": "B",
+      "explanation": "マルウェア（Malware）はMalicious Software（悪意あるソフトウェア）の略。ウイルス・ワーム・トロイの木馬・ランサムウェア・スパイウェアなど、悪意を持って作られたソフトウェア全般の総称。",
+      "termExplanations": {
+        "A": "スパイウェア：ユーザーの情報を密かに収集して外部に送信するマルウェアの一種。",
+        "B": "マルウェア（Malware）：悪意あるソフトウェア全般の総称。ウイルス・ワーム・ランサムウェアなどを含む。",
+        "C": "アドウェア：広告を強制表示するソフトウェア。必ずしも悪意があるとは言えないグレーな存在。",
+        "D": "グレーウェア：明確に悪意があるとは言えないが、望ましくない動作をするソフトウェアの総称。"
+      }
+    },
+    {
+      "id": "q_114",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "標的型攻撃",
+      "question": "特定の組織・個人を狙い、事前に綿密な調査を行ったうえで行われるサイバー攻撃を何というか？",
+      "choices": ["A. ゼロデイ攻撃", "B. 標的型攻撃", "C. APT攻撃", "D. ウォータリングホール攻撃"],
+      "answer": "B",
+      "explanation": "標的型攻撃は特定の企業・政府機関・個人を狙い、組織構造・業務内容・担当者情報を事前調査したうえで行う攻撃。実在する取引先を装ったメールなど巧妙な手口で侵入し、長期間潜伏して情報を窃取する。",
+      "termExplanations": {
+        "A": "ゼロデイ攻撃：ソフトウェアの脆弱性が公表される前（修正パッチ提供前）に行われる攻撃。",
+        "B": "標的型攻撃：特定の組織・個人を狙い、事前調査に基づいて行う巧妙なサイバー攻撃。",
+        "C": "APT攻撃（Advanced Persistent Threat）：高度で持続的な標的型攻撃。標的型攻撃の上位概念。",
+        "D": "ウォータリングホール攻撃：標的がよく訪れるWebサイトにマルウェアを仕込み、感染させる攻撃手法。"
+      }
+    },
+    {
+      "id": "q_115",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ソーシャルエンジニアリング",
+      "question": "技術的な手段ではなく、人間の心理や行動の隙を突いて機密情報を入手する手法を何というか？",
+      "choices": ["A. フィッシング", "B. ソーシャルエンジニアリング", "C. なりすまし", "D. 盗聴"],
+      "answer": "B",
+      "explanation": "ソーシャルエンジニアリングは技術を使わずに人の心理・信頼・不注意を利用して情報を騙し取る手法。電話でIT担当者を装いパスワードを聞き出す・ゴミ箱の書類から情報収集（スキャベンジング）するなどが代表例。",
+      "termExplanations": {
+        "A": "フィッシング：偽サイト・偽メールでID・パスワードを詐取する攻撃。ソーシャルエンジニアリングの一手法。",
+        "B": "ソーシャルエンジニアリング：技術的手段を使わず、人間の心理・行動の隙を突いて情報を入手する手法の総称。",
+        "C": "なりすまし：他人のIDやメールアドレスを不正使用して別人を装う行為。ソーシャルエンジニアリングの一手法。",
+        "D": "盗聴：通信を傍受してデータを取得する行為。技術的な手段を使う点でソーシャルエンジニアリングとは異なる。"
+      }
+    },
+    {
+      "id": "q_116",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "辞書攻撃",
+      "question": "よく使われるパスワードや単語をリスト化した辞書データを使い、順番に試してパスワードを解読する攻撃を何というか？",
+      "choices": ["A. ブルートフォース攻撃", "B. 辞書攻撃", "C. レインボーテーブル攻撃", "D. パスワードスプレー攻撃"],
+      "answer": "B",
+      "explanation": "辞書攻撃は「password」「123456」「admin」などよく使われる単語・フレーズをリスト化した辞書データで認証を試みる攻撃。総当たりより効率的だが、辞書にない複雑なパスワードには無効。",
+      "termExplanations": {
+        "A": "ブルートフォース攻撃：文字の全組み合わせを順番に試す総当たり攻撃。確実だが時間がかかる。",
+        "B": "辞書攻撃：よく使われる単語・フレーズのリストを使ってパスワードを解読する攻撃。",
+        "C": "レインボーテーブル攻撃：ハッシュ値と元のパスワードの対応表を使ってパスワードを逆引きする攻撃。",
+        "D": "パスワードスプレー攻撃：少数のよく使われるパスワードを多数のアカウントに試す攻撃。アカウントロックを回避しやすい。"
+      }
+    },
+    {
+      "id": "q_117",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ブルートフォース攻撃",
+      "question": "パスワードや暗号鍵のすべての組み合わせを機械的に試してアクセスを試みる攻撃を何というか？",
+      "choices": ["A. 辞書攻撃", "B. ブルートフォース攻撃", "C. フィッシング", "D. SQLインジェクション"],
+      "answer": "B",
+      "explanation": "ブルートフォース（総当たり）攻撃はあらゆる文字の組み合わせを順番に試す攻撃。時間さえかければ理論上すべてのパスワードを解読できるが、長く複雑なパスワードほど解読に膨大な時間を要する。",
+      "termExplanations": {
+        "A": "辞書攻撃：よく使われる単語リストを使って試す攻撃。総当たりより効率的だが範囲が限られる。",
+        "B": "ブルートフォース攻撃：すべての文字の組み合わせを順番に試す総当たり攻撃。",
+        "C": "フィッシング：偽サイト・偽メールでID・パスワードを詐取する攻撃。",
+        "D": "SQLインジェクション：入力フォームに不正なSQL文を挿入してDBを不正操作する攻撃。"
+      }
+    },
+    {
+      "id": "q_118",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ハッシュ関数",
+      "question": "任意のデータを固定長の値（ハッシュ値）に変換する一方向性の関数を何というか？",
+      "choices": ["A. 暗号化関数", "B. ハッシュ関数", "C. 圧縮関数", "D. 署名関数"],
+      "answer": "B",
+      "explanation": "ハッシュ関数は入力データを固定長のハッシュ値（ダイジェスト）に変換する一方向性の関数。同じ入力には必ず同じ出力、わずかな入力の差でハッシュ値が大きく変わる特性を持つ。パスワード保存・デジタル署名・改ざん検知に活用。",
+      "termExplanations": {
+        "A": "暗号化関数：データを特定の鍵で暗号化する関数。復号できる点でハッシュ関数と異なる。",
+        "B": "ハッシュ関数：任意のデータを固定長の値に変換する一方向性の関数。元のデータに戻せない。",
+        "C": "圧縮関数：データのサイズを小さくする関数。元のデータに戻せる点でハッシュ関数と異なる。",
+        "D": "署名関数：電子署名を生成・検証する関数。ハッシュ関数と組み合わせて使われる。"
+      }
+    },
+    {
+      "id": "q_119",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "公開鍵暗号方式",
+      "question": "暗号化と復号に異なる鍵（公開鍵・秘密鍵）を使う暗号方式を何というか？",
+      "choices": ["A. 共通鍵暗号方式", "B. 公開鍵暗号方式", "C. ハイブリッド暗号方式", "D. ストリーム暗号方式"],
+      "answer": "B",
+      "explanation": "公開鍵暗号方式は「受信者の公開鍵で暗号化→受信者の秘密鍵で復号」する方式。鍵の配送問題を解決できるが処理が遅い。RSAが代表的アルゴリズム。",
+      "termExplanations": {
+        "A": "共通鍵暗号方式：暗号化と復号に同じ鍵を使う方式。処理が速いが鍵の配送が課題。",
+        "B": "公開鍵暗号方式：公開鍵で暗号化し秘密鍵で復号する方式。鍵配送問題を解決できる。",
+        "C": "ハイブリッド暗号方式：公開鍵暗号と共通鍵暗号を組み合わせた方式。SSL/TLSで使われる。",
+        "D": "ストリーム暗号方式：データを1ビット（1バイト）ずつ順番に暗号化する方式。"
+      }
+    },
+    {
+      "id": "q_120",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "共通鍵暗号方式",
+      "question": "暗号化と復号に同じ鍵を使う暗号方式を何というか？",
+      "choices": ["A. 公開鍵暗号方式", "B. 共通鍵暗号方式", "C. ハイブリッド暗号方式", "D. 非対称暗号方式"],
+      "answer": "B",
+      "explanation": "共通鍵暗号方式（対称鍵暗号）は送受信者が同じ鍵を使う方式。処理が高速でデータの暗号化に適するが、鍵を安全に共有する手段（鍵配送問題）が課題。AES・DESが代表的アルゴリズム。",
+      "termExplanations": {
+        "A": "公開鍵暗号方式：公開鍵と秘密鍵のペアを使う方式。鍵配送問題を解決できるが処理が遅い。",
+        "B": "共通鍵暗号方式：暗号化と復号に同じ鍵を使う方式。処理が速いが鍵配送が課題。",
+        "C": "ハイブリッド暗号方式：公開鍵暗号と共通鍵暗号を組み合わせた方式。両者の長所を活かす。",
+        "D": "非対称暗号方式：公開鍵暗号方式の別名。共通鍵暗号方式（対称）との対比で使われる呼称。"
+      }
+    },
+    {
+      "id": "q_121",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "デジタル署名",
+      "question": "送信者が秘密鍵でデータに署名し、受信者が公開鍵で検証することで、なりすましと改ざんを防ぐ技術を何というか？",
+      "choices": ["A. デジタル証明書", "B. デジタル署名", "C. メッセージ認証コード", "D. タイムスタンプ"],
+      "answer": "B",
+      "explanation": "デジタル署名は送信者の秘密鍵でハッシュ値に署名し、受信者が送信者の公開鍵で検証する技術。なりすまし防止（本人確認）・改ざん検知・否認防止の3つを実現する。",
+      "termExplanations": {
+        "A": "デジタル証明書：公開鍵と所有者情報を認証局（CA）が署名した電子的な身分証明書。",
+        "B": "デジタル署名：送信者の秘密鍵で署名し公開鍵で検証する技術。なりすまし・改ざん・否認防止を実現。",
+        "C": "メッセージ認証コード（MAC）：共通鍵を使ってデータの完全性と認証を確認する仕組み。否認防止はできない。",
+        "D": "タイムスタンプ：電子文書がある時刻に存在していたことを証明する技術。"
+      }
+    },
+    {
+      "id": "q_122",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "PKI",
+      "question": "デジタル証明書の発行・管理・失効を行う認証局（CA）を中心とした公開鍵の信頼管理の仕組みを何というか？",
+      "choices": ["A. SSO", "B. PKI", "C. LDAP", "D. RADIUS"],
+      "answer": "B",
+      "explanation": "PKI（Public Key Infrastructure）は公開鍵基盤。認証局（CA）が公開鍵の正当性を証明するデジタル証明書を発行・管理する仕組み。SSL/TLSやデジタル署名の信頼性を支える基盤技術。",
+      "termExplanations": {
+        "A": "SSO（Single Sign-On）：一度の認証で複数のシステムを利用できる仕組み。PKIとは別の概念。",
+        "B": "PKI（Public Key Infrastructure）：認証局を中心に公開鍵の信頼性を管理する基盤。デジタル証明書の発行・管理を担う。",
+        "C": "LDAP（Lightweight Directory Access Protocol）：ネットワーク上のユーザー・機器情報を管理するプロトコル。",
+        "D": "RADIUS：ネットワーク接続時の認証・認可・アカウント管理を行うプロトコル。"
+      }
+    },
+    {
+      "id": "q_123",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SSL/TLS",
+      "question": "Webブラウザとサーバー間の通信を暗号化し、盗聴・改ざんを防ぐプロトコルを何というか？",
+      "choices": ["A. SSH", "B. IPsec", "C. SSL/TLS", "D. S/MIME"],
+      "answer": "C",
+      "explanation": "SSL/TLS（Secure Sockets Layer / Transport Layer Security）はインターネット通信を暗号化するプロトコル。現在はTLSが主流。HTTPSはHTTPにTLSを適用したもので、南京錠マークで確認できる。",
+      "termExplanations": {
+        "A": "SSH（Secure Shell）：ネットワーク経由でサーバーに安全にリモート接続するプロトコル。",
+        "B": "IPsec：ネットワーク層でIP通信を暗号化するプロトコル。VPNの実現に使われる。",
+        "C": "SSL/TLS：Webブラウザ・サーバー間の通信を暗号化するプロトコル。HTTPSの基盤技術。",
+        "D": "S/MIME：電子メールの暗号化とデジタル署名を行うプロトコル。"
+      }
+    },
+    {
+      "id": "q_124",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "IPsec",
+      "question": "ネットワーク層（IP層）でパケットを暗号化・認証し、安全な通信を実現するプロトコルを何というか？",
+      "choices": ["A. SSL/TLS", "B. SSH", "C. IPsec", "D. PPTP"],
+      "answer": "C",
+      "explanation": "IPsec（IP Security）はIP層でパケットを暗号化・認証するプロトコル。VPNの実現に広く使われる。トンネルモード（パケット全体を暗号化）とトランスポートモード（ペイロードのみ暗号化）がある。",
+      "termExplanations": {
+        "A": "SSL/TLS：アプリケーション層とトランスポート層の間で通信を暗号化するプロトコル。Webブラウザに使われる。",
+        "B": "SSH（Secure Shell）：アプリケーション層でリモート接続を安全に行うプロトコル。",
+        "C": "IPsec：ネットワーク層（IP層）でパケットを暗号化・認証するプロトコル。VPN構築に使われる。",
+        "D": "PPTP（Point-to-Point Tunneling Protocol）：VPNを実現する古いトンネリングプロトコル。現在はセキュリティ上の問題からほぼ使われない。"
+      }
+    },
+    {
+      "id": "q_125",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "HTTP・HTTPS",
+      "question": "WebブラウザとWebサーバー間でHTMLデータを転送するプロトコルと、それを暗号化したプロトコルをそれぞれ何というか？",
+      "choices": ["A. HTTPが暗号化あり、HTTPSが暗号化なし", "B. HTTPが暗号化なし、HTTPSがTLSで暗号化あり", "C. HTTPとHTTPSは同じプロトコル", "D. HTTPSはHTTPの旧バージョンである"],
+      "answer": "B",
+      "explanation": "HTTP（HyperText Transfer Protocol）はWebブラウザとサーバー間でデータを転送するプロトコル。暗号化なしのため盗聴リスクがある。HTTPS（HTTP Secure）はHTTPにTLSを加えて通信を暗号化したもの。",
+      "termExplanations": {
+        "A": "HTTPが暗号化あり・HTTPSが暗号化なしという説明は逆。HTTPが平文、HTTPSが暗号化が正しい。",
+        "B": "HTTP（暗号化なし）とHTTPS（TLSで暗号化あり）の説明として正しい。",
+        "C": "HTTPとHTTPSは暗号化の有無が異なる別プロトコル。",
+        "D": "HTTPSはHTTPの旧バージョンではなく、HTTPにセキュリティを追加した上位バージョン。"
+      }
+    },
+    {
+      "id": "q_126",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SMTP",
+      "question": "メールクライアントからメールサーバー、またはメールサーバー間でメールを送信するプロトコルを何というか？",
+      "choices": ["A. POP3", "B. IMAP", "C. SMTP", "D. MIME"],
+      "answer": "C",
+      "explanation": "SMTP（Simple Mail Transfer Protocol）は電子メールの送信に使うプロトコル。メールクライアントからサーバーへの送信、サーバー間の転送に使われる。メール受信にはPOP3やIMAPを使う。",
+      "termExplanations": {
+        "A": "POP3（Post Office Protocol 3）：メールサーバーからメールを受信するプロトコル。受信後サーバーからメールが削除される。",
+        "B": "IMAP（Internet Message Access Protocol）：メールサーバー上でメールを管理・受信するプロトコル。複数端末での同期が可能。",
+        "C": "SMTP（Simple Mail Transfer Protocol）：電子メールを送信するためのプロトコル。",
+        "D": "MIME（Multipurpose Internet Mail Extensions）：メールで日本語・画像・添付ファイルを扱うための規格。SMTPの上で使われる。"
+      }
+    },
+    {
+      "id": "q_127",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "POP・IMAP",
+      "question": "メールサーバーからメールを受信するプロトコルのうち、サーバーからダウンロードして削除するものと、サーバー上で管理するものをそれぞれ何というか？",
+      "choices": ["A. POPがサーバー管理、IMAPがダウンロード削除", "B. POPがダウンロード削除、IMAPがサーバー管理", "C. POPもIMAPも同じ動作をする", "D. POPは送信用、IMAPは受信用プロトコル"],
+      "answer": "B",
+      "explanation": "POP3はメールをサーバーからダウンロードして端末に保存し、サーバーから削除する。IMAPはメールをサーバー上で管理し、複数端末から同期して閲覧できる。スマホ・PC両方でメールを確認する場合はIMAPが適している。",
+      "termExplanations": {
+        "A": "POPがサーバー管理・IMAPがダウンロード削除という説明は逆。POPがダウンロード削除、IMAPがサーバー管理が正しい。",
+        "B": "POP3（ダウンロードして削除）とIMAP（サーバー上で管理・複数端末同期）の説明として正しい。",
+        "C": "POPとIMAPは異なる動作をする。複数端末での利用可否が大きな違い。",
+        "D": "POPもIMAPも受信用プロトコル。送信はSMTPが担う。"
+      }
+    },
+    {
+      "id": "q_128",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "NTP",
+      "question": "ネットワーク上のコンピュータの時刻を正確に同期するためのプロトコルを何というか？",
+      "choices": ["A. DNS", "B. SNMP", "C. NTP", "D. ICMP"],
+      "answer": "C",
+      "explanation": "NTP（Network Time Protocol）はインターネット上の機器の時刻を標準時に合わせて同期するプロトコル。ログの時刻整合性・証明書の有効期限確認・認証システムなどに不可欠。",
+      "termExplanations": {
+        "A": "DNS（Domain Name System）：ドメイン名をIPアドレスに変換する仕組み。時刻同期とは関係ない。",
+        "B": "SNMP（Simple Network Management Protocol）：ネットワーク機器の監視・管理を行うプロトコル。",
+        "C": "NTP（Network Time Protocol）：ネットワーク機器の時刻を標準時に同期するプロトコル。",
+        "D": "ICMP（Internet Control Message Protocol）：ネットワークの疎通確認（ping）やエラー通知に使うプロトコル。"
+      }
+    },
+    {
+      "id": "q_129",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "DHCP",
+      "question": "ネットワークに接続した機器に対して、IPアドレスやDNSサーバーのアドレスなどを自動的に割り当てるプロトコルを何というか？",
+      "choices": ["A. DNS", "B. ARP", "C. DHCP", "D. NAT"],
+      "answer": "C",
+      "explanation": "DHCP（Dynamic Host Configuration Protocol）はIPアドレス・サブネットマスク・デフォルトゲートウェイ・DNSサーバーアドレスなどのネットワーク設定を自動的に割り当てるプロトコル。手動設定の手間を省き、アドレス管理を効率化する。",
+      "termExplanations": {
+        "A": "DNS（Domain Name System）：ドメイン名とIPアドレスを相互変換する仕組み。アドレスの割り当ては行わない。",
+        "B": "ARP（Address Resolution Protocol）：IPアドレスからMACアドレスを調べるプロトコル。",
+        "C": "DHCP（Dynamic Host Configuration Protocol）：機器にIPアドレスなどのネットワーク設定を自動割り当てするプロトコル。",
+        "D": "NAT（Network Address Translation）：プライベートIPアドレスをグローバルIPアドレスに変換する技術。"
+      }
+    },
+    {
+      "id": "q_130",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "TCP/IP",
+      "question": "インターネットで標準的に使われる通信プロトコルの組み合わせで、データの送受信ルールを定めたものを何というか？",
+      "choices": ["A. HTTP", "B. TCP/IP", "C. OSI参照モデル", "D. UDP"],
+      "answer": "B",
+      "explanation": "TCP/IPはインターネット通信の基盤となるプロトコル群。TCP（Transmission Control Protocol）は信頼性の高いデータ転送を、IP（Internet Protocol）はアドレス管理とパケット転送を担う。",
+      "termExplanations": {
+        "A": "HTTP（HyperText Transfer Protocol）：WebブラウザとWebサーバー間でデータを転送するプロトコル。TCP/IPの上位層で動作。",
+        "B": "TCP/IP：インターネット通信の標準プロトコル群。TCPが信頼性のある通信を、IPがアドレス管理・パケット転送を担う。",
+        "C": "OSI参照モデル：ネットワーク通信を7層に分けて定義した概念モデル。TCP/IPの理解に使われる。",
+        "D": "UDP（User Datagram Protocol）：信頼性より速度を優先した軽量な通信プロトコル。動画配信やDNSなどに使用。"
+      }
+    },
+    {
+      "id": "q_131",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "IPv4・IPv6",
+      "question": "インターネットで使われるIPアドレスの規格のうち、32ビット構成の旧規格と128ビット構成の新規格をそれぞれ何というか？",
+      "choices": ["A. IPv4が128ビット、IPv6が32ビット", "B. IPv4が32ビット、IPv6が128ビット", "C. IPv4もIPv6も同じビット数", "D. IPv4が64ビット、IPv6が128ビット"],
+      "answer": "B",
+      "explanation": "IPv4は32ビット（約43億アドレス）、IPv6は128ビット（約340澗個のアドレス）。インターネットの普及でIPv4アドレスが枯渇したため、IPv6への移行が進んでいる。",
+      "termExplanations": {
+        "A": "IPv4が128ビット・IPv6が32ビットという説明は逆。IPv4が32ビット、IPv6が128ビットが正しい。",
+        "B": "IPv4（32ビット・約43億アドレス）とIPv6（128ビット・事実上無限のアドレス）の説明として正しい。",
+        "C": "IPv4とIPv6はビット数が異なり、アドレス空間の規模が大きく違う。",
+        "D": "IPv4は64ビットではなく32ビット。"
+      }
+    },
+    {
+      "id": "q_132",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "NAT・NAPT",
+      "question": "プライベートIPアドレスをグローバルIPアドレスに変換する技術と、ポート番号も組み合わせて複数の端末を1つのグローバルIPに対応させる技術をそれぞれ何というか？",
+      "choices": ["A. NATが複数対1変換、NAPTが1対1変換", "B. NATがIPアドレスのみ変換、NAPTがIPとポートの両方を変換", "C. NATとNAPTは同じ技術", "D. NATがIPv6用、NAPTがIPv4用"],
+      "answer": "B",
+      "explanation": "NAT（Network Address Translation）はプライベートIPをグローバルIPに1対1で変換する技術。NAPT（IP Masquerade）はIPアドレスとポート番号を組み合わせて多数の端末を1つのグローバルIPに対応させる技術。家庭用ルーターで広く使われるのはNAPT。",
+      "termExplanations": {
+        "A": "NATが複数対1・NAPTが1対1という説明は逆。NATが基本的に1対1、NAPTが複数対1が正しい。",
+        "B": "NAT（IPアドレスのみ変換）とNAPT（IPアドレス＋ポート番号を変換）の説明として正しい。",
+        "C": "NATとNAPTは変換方式が異なる技術。NAPTはNATを拡張したもの。",
+        "D": "NATもNAPTもIPv4の問題（アドレス不足）を解決するための技術。IPv6専用ではない。"
+      }
+    },
+    {
+      "id": "q_133",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "サブネットマスク",
+      "question": "IPアドレスのどこまでがネットワーク部で、どこからがホスト部かを示す値を何というか？",
+      "choices": ["A. デフォルトゲートウェイ", "B. サブネットマスク", "C. ブロードキャストアドレス", "D. ネットワークアドレス"],
+      "answer": "B",
+      "explanation": "サブネットマスクはIPアドレスのネットワーク部（同一ネットワーク内の共通部分）とホスト部（個々の機器を識別する部分）を区別するための値。例: 255.255.255.0 または /24 と表記する。",
+      "termExplanations": {
+        "A": "デフォルトゲートウェイ：異なるネットワークへの通信を中継するルーターのIPアドレス。",
+        "B": "サブネットマスク：IPアドレスのネットワーク部とホスト部を区別するための値。",
+        "C": "ブロードキャストアドレス：同一ネットワーク内の全機器に一斉送信するための特殊なIPアドレス。",
+        "D": "ネットワークアドレス：サブネット全体を識別するためのアドレス。ホストには割り当てられない。"
+      }
+    },
+    {
+      "id": "q_134",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "デフォルトゲートウェイ",
+      "question": "異なるネットワーク（外部ネットワーク・インターネット）への通信を中継する出口となるルーターのIPアドレスを何というか？",
+      "choices": ["A. DNSサーバー", "B. デフォルトゲートウェイ", "C. プロキシサーバー", "D. NTPサーバー"],
+      "answer": "B",
+      "explanation": "デフォルトゲートウェイは同一ネットワーク内に宛先がない場合に通信を転送するルーターのIPアドレス。家庭用LANでは一般的にルーターのLAN側IPアドレス（例: 192.168.1.1）が設定される。",
+      "termExplanations": {
+        "A": "DNSサーバー：ドメイン名をIPアドレスに変換するサーバー。外部通信の出口ではない。",
+        "B": "デフォルトゲートウェイ：異なるネットワークへの通信を中継するルーターのIPアドレス。外部通信の出口。",
+        "C": "プロキシサーバー：クライアントの代理としてインターネットにアクセスするサーバー。",
+        "D": "NTPサーバー：ネットワーク機器の時刻同期を提供するサーバー。"
+      }
+    },
+    {
+      "id": "q_135",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ARP",
+      "question": "同一ネットワーク内で、IPアドレスから対応するMACアドレスを調べるプロトコルを何というか？",
+      "choices": ["A. DNS", "B. DHCP", "C. ARP", "D. ICMP"],
+      "answer": "C",
+      "explanation": "ARP（Address Resolution Protocol）はIPアドレスからMACアドレスを調べるプロトコル。同一LAN内で通信する際、宛先のIPアドレスに対応するMACアドレスをブロードキャストで問い合わせて取得する。",
+      "termExplanations": {
+        "A": "DNS（Domain Name System）：ドメイン名とIPアドレスを相互変換する仕組み。MACアドレスの解決は行わない。",
+        "B": "DHCP（Dynamic Host Configuration Protocol）：機器にIPアドレスなどのネットワーク設定を自動割り当てするプロトコル。",
+        "C": "ARP（Address Resolution Protocol）：IPアドレスから対応するMACアドレスを調べるプロトコル。",
+        "D": "ICMP（Internet Control Message Protocol）：ネットワークの疎通確認（ping）やエラー通知に使うプロトコル。"
+      }
+    },
+    {
+      "id": "q_136",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "LAN・WAN",
+      "question": "同一建物や敷地内の限られた範囲のネットワークと、地理的に離れた拠点間を結ぶ広域ネットワークをそれぞれ何というか？",
+      "choices": ["A. LANが広域、WANが狭域", "B. LANが狭域（建物内）、WANが広域（拠点間）", "C. LANとWANは同じ規模のネットワーク", "D. LANが有線、WANが無線ネットワーク"],
+      "answer": "B",
+      "explanation": "LAN（Local Area Network）は同一建物・フロア・キャンパスなど限られた範囲のネットワーク。WAN（Wide Area Network）は地理的に離れた拠点間を結ぶ広域ネットワーク。インターネットもWANの一種。",
+      "termExplanations": {
+        "A": "LANが広域・WANが狭域という説明は逆。LANが狭域、WANが広域が正しい。",
+        "B": "LAN（建物内などの狭域）とWAN（拠点間などの広域）の説明として正しい。",
+        "C": "LANとWANはカバー範囲が大きく異なるネットワーク。",
+        "D": "LANもWANも有線・無線の両方がある。有線・無線の違いではなく範囲の違い。"
+      }
+    },
+    {
+      "id": "q_137",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "Wi-Fi",
+      "question": "IEEE 802.11規格に基づく無線LAN技術の総称で、電波を使ってインターネットや機器間の通信を行う技術を何というか？",
+      "choices": ["A. Bluetooth", "B. Wi-Fi", "C. NFC", "D. LTE"],
+      "answer": "B",
+      "explanation": "Wi-FiはIEEE 802.11規格に準拠した無線LAN技術の総称。Wi-Fi AllianceがWi-Fiの相互接続性を認定する。2.4GHz帯と5GHz帯があり、家庭・オフィス・公共施設など広く普及している。",
+      "termExplanations": {
+        "A": "Bluetooth：数m〜数十mの近距離無線通信技術。イヤホン・マウスなど周辺機器接続に使用。Wi-Fiより通信範囲が狭い。",
+        "B": "Wi-Fi：IEEE 802.11規格に基づく無線LAN技術。インターネット接続・機器間通信に広く使われる。",
+        "C": "NFC（Near Field Communication）：数cm程度の極近距離無線通信技術。電子マネー・交通系ICカードに使用。",
+        "D": "LTE（Long Term Evolution）：携帯電話の4G通信規格。基地局経由で広域通信するモバイル通信技術。"
+      }
+    },
+    {
+      "id": "q_138",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "Bluetooth",
+      "question": "数m〜数十mの近距離で機器間のデータ通信を行う無線通信技術で、主にイヤホン・マウス・キーボードなどの周辺機器接続に使われるものを何というか？",
+      "choices": ["A. Wi-Fi", "B. NFC", "C. Bluetooth", "D. ZigBee"],
+      "answer": "C",
+      "explanation": "Bluetoothは2.4GHz帯を使う近距離無線通信技術（IEEE 802.15.1規格）。消費電力が低く、小型機器に適している。バージョンが上がるにつれ通信速度・範囲が向上。BLEは特に低消費電力のIoT向け規格。",
+      "termExplanations": {
+        "A": "Wi-Fi：IEEE 802.11規格の無線LAN技術。Bluetoothより通信範囲が広く速度が速い。",
+        "B": "NFC：数cm程度の極近距離無線通信技術。Bluetoothより通信範囲がはるかに狭い。",
+        "C": "Bluetooth：2.4GHz帯の近距離無線通信技術。周辺機器接続・ファイル転送などに使われる。",
+        "D": "ZigBee：低消費電力・低速の近距離無線通信規格。センサーネットワーク・スマートホームに使用。"
+      }
+    },
+    {
+      "id": "q_139",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "5G",
+      "question": "第5世代移動通信システムの規格で、超高速・超低遅延・多数同時接続を特徴とする通信技術を何というか？",
+      "choices": ["A. LTE", "B. 4G", "C. 5G", "D. WiMAX"],
+      "answer": "C",
+      "explanation": "5G（Fifth Generation）は最大通信速度が4Gの約100倍（20Gbps）、遅延が1ms以下、1km²あたり100万台の同時接続が可能な第5世代移動通信規格。自動運転・遠隔医療・IoTの基盤技術として期待される。",
+      "termExplanations": {
+        "A": "LTE（Long Term Evolution）：4Gの前段階として普及した高速移動通信規格。現在も広く使われている。",
+        "B": "4G（第4世代）：LTE-Advancedが代表。現在普及している主流の移動通信規格。5Gの前世代。",
+        "C": "5G（第5世代）：超高速・超低遅延・多数同時接続を特徴とする最新の移動通信規格。",
+        "D": "WiMAX：無線ブロードバンド通信規格。モバイルWi-Fiルーターなどに使われるが、5Gとは別規格。"
+      }
+    },
+    {
+      "id": "q_140",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "MVNO",
+      "question": "大手通信キャリアから通信回線を借り受けて、独自のサービス・料金プランで提供する事業者を何というか？",
+      "choices": ["A. MNO", "B. MVNO", "C. ISP", "D. MVNE"],
+      "answer": "B",
+      "explanation": "MVNO（Mobile Virtual Network Operator）は仮想移動体通信事業者。NTTドコモ・auなどのMNOから回線を借り、格安SIMなどの低価格サービスを提供する。IIJmio・楽天モバイル（MNO移行前）などが代表例。",
+      "termExplanations": {
+        "A": "MNO（Mobile Network Operator）：自社で通信設備・回線を持つ大手通信キャリア。NTTドコモ・au・ソフトバンクなど。",
+        "B": "MVNO（Mobile Virtual Network Operator）：MNOから回線を借りて独自サービスを提供する仮想移動体通信事業者。",
+        "C": "ISP（Internet Service Provider）：インターネット接続サービスを提供する事業者。固定回線のプロバイダ。",
+        "D": "MVNE（Mobile Virtual Network Enabler）：MVNOにシステム・インフラを提供する支援事業者。"
+      }
+    },
+    {
+      "id": "q_141",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SIM",
+      "question": "携帯電話に挿入し、電話番号や契約者情報を記録した加入者識別モジュールを何というか？",
+      "choices": ["A. SDカード", "B. SIM", "C. NFC", "D. eSIM"],
+      "answer": "B",
+      "explanation": "SIM（Subscriber Identity Module）は携帯電話に挿入するICカード。電話番号・契約情報・認証データを格納し、通信キャリアのネットワークに接続するために必要。物理的なカードのほか、端末内に内蔵されたeSIMもある。",
+      "termExplanations": {
+        "A": "SDカード：データ保存用のメモリカード。契約者情報の格納には使わない。",
+        "B": "SIM（Subscriber Identity Module）：契約者情報・電話番号を格納した加入者識別モジュール。通信に必須。",
+        "C": "NFC：近距離無線通信技術。SIMとは別の技術だが、同じICチップ上に搭載される場合もある。",
+        "D": "eSIM（embedded SIM）：端末に内蔵された書き換え可能なSIM。物理カードが不要でオンラインで契約変更できる。"
+      }
+    },
+    {
+      "id": "q_142",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "GPS",
+      "question": "地球を周回する複数の人工衛星からの信号を受信して、地球上の位置（緯度・経度・高度）を計算する技術を何というか？",
+      "choices": ["A. GIS", "B. GPS", "C. GNSS", "D. LBS"],
+      "answer": "B",
+      "explanation": "GPS（Global Positioning System）は米国が運用する衛星測位システム。4個以上の衛星からの電波到着時間の差を計算して位置を特定する。スマートフォン・カーナビ・物流管理など幅広く活用される。",
+      "termExplanations": {
+        "A": "GIS（Geographic Information System）：地図情報とデータを組み合わせて分析・可視化する地理情報システム。GPSのデータを活用する。",
+        "B": "GPS（Global Positioning System）：米国の衛星測位システム。衛星信号から地球上の位置を特定する。",
+        "C": "GNSS（Global Navigation Satellite System）：GPS・GLONASS・みちびきなど各国の測位衛星システムの総称。GPSはGNSSの一種。",
+        "D": "LBS（Location Based Service）：位置情報を活用したサービスの総称。GPSを利用するサービスを含む。"
+      }
+    },
+    {
+      "id": "q_143",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "CPU",
+      "question": "コンピュータの中枢として、プログラムの命令を解釈・実行し、各装置を制御・演算する部品を何というか？",
+      "choices": ["A. GPU", "B. CPU", "C. RAM", "D. SSD"],
+      "answer": "B",
+      "explanation": "CPU（Central Processing Unit）は中央処理装置。プログラムの命令を取得・解析・実行し、入出力・記憶装置などを制御する。処理速度はクロック周波数・コア数・キャッシュサイズなどで決まる。",
+      "termExplanations": {
+        "A": "GPU（Graphics Processing Unit）：画像処理に特化した演算装置。多数のコアで並列計算を行い、AIの学習にも活用される。",
+        "B": "CPU（Central Processing Unit）：プログラムの命令を解釈・実行し、各装置を制御・演算するコンピュータの中枢部品。",
+        "C": "RAM（Random Access Memory）：CPUが処理中のデータを一時的に保存する主記憶装置。",
+        "D": "SSD（Solid State Drive）：フラッシュメモリを使った補助記憶装置。HDDより高速・軽量。"
+      }
+    },
+    {
+      "id": "q_144",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "GPU",
+      "question": "大量の画像データや行列演算を並列処理することに特化した演算装置で、AI・機械学習の分野でも活用されるものを何というか？",
+      "choices": ["A. CPU", "B. APU", "C. GPU", "D. TPU"],
+      "answer": "C",
+      "explanation": "GPU（Graphics Processing Unit）はもともと3D描画のための演算装置。数千〜数万のコアで大量の並列計算が得意で、ディープラーニングの学習計算にも活用される。NVIDIAのCUDAがAI開発の標準環境として普及。",
+      "termExplanations": {
+        "A": "CPU（Central Processing Unit）：少数の高性能コアで複雑な逐次処理が得意。汎用的な演算を担う。",
+        "B": "APU（Accelerated Processing Unit）：CPUとGPUを1チップに統合した演算装置。",
+        "C": "GPU（Graphics Processing Unit）：多数のコアで並列演算が得意な演算装置。画像処理・AI学習に使われる。",
+        "D": "TPU（Tensor Processing Unit）：Googleが開発したAI推論・学習に特化したプロセッサ。"
+      }
+    },
+    {
+      "id": "q_145",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "RAM・ROM",
+      "question": "電源を切るとデータが消える揮発性メモリと、電源を切ってもデータが保持される不揮発性メモリをそれぞれ何というか？",
+      "choices": ["A. RAMが不揮発性、ROMが揮発性", "B. RAMが揮発性、ROMが不揮発性", "C. RAMとROMはどちらも揮発性", "D. RAMとROMはどちらも不揮発性"],
+      "answer": "B",
+      "explanation": "RAM（Random Access Memory）は電源が切れるとデータが消える揮発性メモリ。主記憶装置として使われる。ROM（Read Only Memory）は電源を切ってもデータが保持される不揮発性メモリ。BIOSなど変更不要なプログラムを格納する。",
+      "termExplanations": {
+        "A": "RAMが不揮発性・ROMが揮発性という説明は逆。RAMが揮発性、ROMが不揮発性が正しい。",
+        "B": "RAM（揮発性・電源切でデータ消失）とROM（不揮発性・電源切でもデータ保持）の説明として正しい。",
+        "C": "RAMは揮発性だが、ROMは不揮発性。どちらも揮発性ではない。",
+        "D": "ROMは不揮発性だが、RAMは揮発性。どちらも不揮発性ではない。"
+      }
+    },
+    {
+      "id": "q_146",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "SSD",
+      "question": "フラッシュメモリを使ったストレージで、機械的な動作部品がなく高速・静音・衝撃に強い補助記憶装置を何というか？",
+      "choices": ["A. HDD", "B. SSD", "C. NVMe", "D. eMMC"],
+      "answer": "B",
+      "explanation": "SSD（Solid State Drive）はフラッシュメモリを使った補助記憶装置。HDDと比べて読み書き速度が大幅に速く、消費電力が少なく、衝撃に強い。価格はHDDより高めだが普及が進んでいる。",
+      "termExplanations": {
+        "A": "HDD（Hard Disk Drive）：磁気ディスクにデータを記録する補助記憶装置。大容量・低価格だがSSDより遅く衝撃に弱い。",
+        "B": "SSD（Solid State Drive）：フラッシュメモリを使った補助記憶装置。高速・静音・衝撃に強い。",
+        "C": "NVMe（Non-Volatile Memory Express）：SSDの接続インターフェース規格の一つ。SATA接続より大幅に高速。",
+        "D": "eMMC（embedded Multi Media Card）：スマートフォンやタブレットに組み込まれた小型フラッシュストレージ。SSDより低速。"
+      }
+    },
+    {
+      "id": "q_147",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "RAID",
+      "question": "複数のディスクを組み合わせて、速度向上または冗長性（耐障害性）を実現するディスク管理技術を何というか？",
+      "choices": ["A. NAS", "B. RAID", "C. SAN", "D. バックアップ"],
+      "answer": "B",
+      "explanation": "RAID（Redundant Arrays of Independent Disks）は複数のディスクを組み合わせる技術。RAID0（ストライピング・速度向上）、RAID1（ミラーリング・冗長性）、RAID5（ストライピング＋パリティ・速度と冗長性の両立）などの構成がある。",
+      "termExplanations": {
+        "A": "NAS（Network Attached Storage）：ネットワークに接続して複数の機器から共有できるストレージ装置。RAIDと組み合わせて使われることが多い。",
+        "B": "RAID（Redundant Arrays of Independent Disks）：複数ディスクを組み合わせて速度向上・冗長性を実現する技術。",
+        "C": "SAN（Storage Area Network）：ストレージ専用の高速ネットワーク。大規模システムで使われる。",
+        "D": "バックアップ：データを別の場所にコピーして保存すること。RAIDは冗長性を持つが、バックアップの代替にはならない。"
+      }
+    },
+    {
+      "id": "q_148",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "NAS",
+      "question": "ネットワークに接続し、複数のコンピュータからファイルを共有・アクセスできるストレージ装置を何というか？",
+      "choices": ["A. SAN", "B. NAS", "C. DAS", "D. クラウドストレージ"],
+      "answer": "B",
+      "explanation": "NAS（Network Attached Storage）はネットワークに直接接続するストレージ装置。LAN経由で複数のPC・スマートフォンから同時にアクセス・共有でき、家庭や中小企業のファイルサーバーとして広く使われる。",
+      "termExplanations": {
+        "A": "SAN（Storage Area Network）：ストレージ専用の高速ネットワーク。大規模なデータセンター向けで、NASより高価・高速。",
+        "B": "NAS（Network Attached Storage）：ネットワークに接続して複数機器からアクセス・共有できるストレージ装置。",
+        "C": "DAS（Direct Attached Storage）：PCに直接接続する外付けストレージ。ネットワーク共有はできない。",
+        "D": "クラウドストレージ：インターネット経由でデータを保存・共有するサービス。NASとは異なり自社設備を持たない。"
+      }
+    },
+    {
+      "id": "q_149",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "OS",
+      "question": "ハードウェアを管理し、アプリケーションソフトに共通の動作環境を提供するソフトウェアを何というか？",
+      "choices": ["A. ミドルウェア", "B. ファームウェア", "C. OS", "D. ドライバ"],
+      "answer": "C",
+      "explanation": "OS（Operating System）はオペレーティングシステム。CPU・メモリ・ディスク・入出力装置などのハードウェアを管理し、アプリケーションソフトが動作するための基盤を提供する。Windows・macOS・Linux・Android・iOSが代表例。",
+      "termExplanations": {
+        "A": "ミドルウェア：OSとアプリケーションの中間に位置するソフトウェア。データベース管理システム・Webサーバーなどが該当。",
+        "B": "ファームウェア：ハードウェアに組み込まれた制御プログラム。BIOSやルーターの制御プログラムなどが該当。",
+        "C": "OS（Operating System）：ハードウェアを管理しアプリの動作基盤を提供するソフトウェア。",
+        "D": "ドライバ：特定のハードウェアをOSが制御するための専用ソフトウェア。プリンタドライバなどが該当。"
+      }
+    },
+    {
+      "id": "q_150",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "ミドルウェア",
+      "question": "OSとアプリケーションソフトの中間に位置し、共通的な機能を提供するソフトウェアを何というか？",
+      "choices": ["A. OS", "B. ミドルウェア", "C. ファームウェア", "D. ランタイム"],
+      "answer": "B",
+      "explanation": "ミドルウェアはOSの上で動作し、データベース管理・Webサーバー・メッセージキュー・認証基盤など複数のアプリケーションが共通で利用する機能を提供するソフトウェア。MySQL・Apache・Redisなどが代表例。",
+      "termExplanations": {
+        "A": "OS（Operating System）：ハードウェアを管理しアプリの動作基盤を提供するソフトウェア。ミドルウェアの下層に位置する。",
+        "B": "ミドルウェア：OSとアプリの中間に位置し、DB管理・Webサーバーなど共通機能を提供するソフトウェア。",
+        "C": "ファームウェア：ハードウェアに組み込まれた制御プログラム。OSより下層に位置する。",
+        "D": "ランタイム：プログラムの実行時に必要なライブラリ・環境の総称。ミドルウェアと重複する部分もある。"
+      }
+    },
+    {
+      "id": "q_151",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "GUI・CUI",
+      "question": "アイコンやウィンドウなどを使って直感的に操作するインターフェースと、文字コマンドを入力して操作するインターフェースをそれぞれ何というか？",
+      "choices": ["A. GUIがコマンド入力、CUIがアイコン操作", "B. GUIがアイコン・ウィンドウ操作、CUIがコマンド入力", "C. GUIとCUIは同じ操作方法", "D. GUIは旧式、CUIは最新のインターフェース"],
+      "answer": "B",
+      "explanation": "GUI（Graphical User Interface）はマウス・タッチでアイコン・ウィンドウを操作する視覚的なインターフェース。CUI（Character User Interface）はキーボードで文字コマンドを入力して操作する。GUIは直感的で初心者に適し、CUIは自動化・高度な操作に適する。",
+      "termExplanations": {
+        "A": "GUIがコマンド入力・CUIがアイコン操作という説明は逆。GUIがアイコン操作、CUIがコマンド入力が正しい。",
+        "B": "GUI（アイコン・ウィンドウの視覚的操作）とCUI（文字コマンド入力）の説明として正しい。",
+        "C": "GUIとCUIは操作方法が根本的に異なる。",
+        "D": "GUIは現在の主流インターフェース。CUIも開発・運用の場面で現役で使われている。"
+      }
+    },
+    {
+      "id": "q_152",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "仮想化",
+      "question": "1台の物理コンピュータ上にソフトウェアで複数の仮想的なコンピュータを作り出し、独立して動作させる技術を何というか？",
+      "choices": ["A. クラウドコンピューティング", "B. 仮想化", "C. コンテナ", "D. エミュレーション"],
+      "answer": "B",
+      "explanation": "仮想化技術はハイパーバイザー（VMwareなど）を使い、1台の物理サーバー上に複数の仮想マシン（VM）を構築する技術。ハードウェアリソースを有効活用でき、サーバー統合・開発環境の隔離・クラウドの基盤技術として広く使われる。",
+      "termExplanations": {
+        "A": "クラウドコンピューティング：インターネット経由でITリソースを提供するサービス形態。仮想化技術を基盤として使う。",
+        "B": "仮想化：1台の物理サーバー上に複数の仮想マシンを作り、独立して動作させる技術。",
+        "C": "コンテナ：OSを共有しながらアプリを隔離して実行する軽量な仮想化技術。仮想マシンより起動が速い。",
+        "D": "エミュレーション：あるハードウェア・ソフトウェアの動作を別の環境で再現する技術。仮想化より広い概念。"
+      }
+    },
+    {
+      "id": "q_153",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "コンテナ",
+      "question": "OSカーネルを共有しながら、アプリケーションの実行環境を軽量に隔離・パッケージ化する仮想化技術を何というか？",
+      "choices": ["A. 仮想マシン（VM）", "B. コンテナ", "C. ハイパーバイザー", "D. サンドボックス"],
+      "answer": "B",
+      "explanation": "コンテナはOSカーネルを共有しながらアプリとその依存関係をパッケージ化して隔離実行する技術。仮想マシン（VM）より起動が速く軽量。Dockerが代表的なコンテナ技術で、Kubernetesで大規模管理を行う。",
+      "termExplanations": {
+        "A": "仮想マシン（VM）：OSごと仮想化する技術。コンテナより隔離性が高いが重く起動が遅い。",
+        "B": "コンテナ：OSカーネルを共有しながらアプリを軽量に隔離・パッケージ化する仮想化技術。Dockerが代表例。",
+        "C": "ハイパーバイザー：仮想マシンを管理・実行するソフトウェア。VMwareやHyper-Vが該当。",
+        "D": "サンドボックス：プログラムを隔離された安全な環境で実行する仕組み。マルウェア解析や安全なテスト実行に使う。"
+      }
+    },
+    {
+      "id": "q_154",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "エッジコンピューティング",
+      "question": "データ処理をクラウドに送らず、データが発生する場所の近く（端末・ゲートウェイ）で行う分散処理の仕組みを何というか？",
+      "choices": ["A. クラウドコンピューティング", "B. フォグコンピューティング", "C. エッジコンピューティング", "D. グリッドコンピューティング"],
+      "answer": "C",
+      "explanation": "エッジコンピューティングはIoT機器などデータ発生源の近くで処理を行う技術。クラウドへの通信遅延を減らし、リアルタイム性が求められる自動運転・工場の品質検査・医療機器などに適している。",
+      "termExplanations": {
+        "A": "クラウドコンピューティング：インターネット経由で遠隔のサーバーでデータ処理を行う形態。エッジとは対比される。",
+        "B": "フォグコンピューティング：エッジとクラウドの中間層で処理を行う概念。エッジコンピューティングの上位概念。",
+        "C": "エッジコンピューティング：データ発生源の近くで処理を行い、遅延削減・帯域節約を実現する技術。",
+        "D": "グリッドコンピューティング：複数のコンピュータを連携させて大規模計算を行う技術。エッジとは目的が異なる。"
+      }
+    },
+    {
+      "id": "q_155",
+      "chapter": "頻出単語帳1-100",
+      "keyword": "グリッドコンピューティング",
+      "question": "ネットワークで接続された複数のコンピュータのリソースを統合し、大規模な計算処理を分散して実行する技術を何というか？",
+      "choices": ["A. クラウドコンピューティング", "B. エッジコンピューティング", "C. グリッドコンピューティング", "D. 並列コンピューティング"],
+      "answer": "C",
+      "explanation": "グリッドコンピューティングは地理的に分散した複数のコンピュータをネットワークで結び、余剰な計算リソースを共有して大規模計算を行う技術。気象シミュレーション・創薬研究・宇宙探査データ解析などに活用される。",
+      "termExplanations": {
+        "A": "クラウドコンピューティング：インターネット経由でITリソースをサービスとして提供する形態。グリッドより集中管理型。",
+        "B": "エッジコンピューティング：データ発生源の近くで処理を行う技術。グリッドとは目的が異なる。",
+        "C": "グリッドコンピューティング：分散した複数コンピュータのリソースを統合して大規模計算を行う技術。",
+        "D": "並列コンピューティング：複数のプロセッサで同時に計算を行う技術。グリッドは並列コンピューティングの一形態。"
+      }
     }
   ]
 }
