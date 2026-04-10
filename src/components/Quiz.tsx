@@ -6,6 +6,7 @@ interface QuizProps {
   config: QuizConfig;
   reviewQueue: string[];
   onFinish: (result: QuizResult) => void;
+  onCorrectAnswer?: (id: string) => void;
 }
 
 function shuffle<T>(arr: T[]): T[] {
@@ -19,7 +20,7 @@ function shuffle<T>(arr: T[]): T[] {
 
 const CHOICE_LETTERS = ['A', 'B', 'C', 'D'] as const;
 
-export default function Quiz({ config, reviewQueue, onFinish }: QuizProps) {
+export default function Quiz({ config, reviewQueue, onFinish, onCorrectAnswer }: QuizProps) {
   const allQuestions = questionsData.questions as Question[];
 
   const [queue] = useState<Question[]>(() => {
@@ -54,10 +55,14 @@ export default function Quiz({ config, reviewQueue, onFinish }: QuizProps) {
     setSelected(letter);
     if (letter === current.answer) {
       setScore(s => s + 1);
+      // 復習モードで正解した場合、即座にキューから削除
+      if (config.mode === 'review') {
+        onCorrectAnswer?.(current.id);
+      }
     } else {
       setWrongIds(prev => prev.includes(current.id) ? prev : [...prev, current.id]);
     }
-  }, [isAnswered, current]);
+  }, [isAnswered, current, config.mode, onCorrectAnswer]);
 
   const handleNext = () => {
     if (isLast) {

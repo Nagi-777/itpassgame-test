@@ -29,14 +29,6 @@ export default function App() {
       addToReviewQueue(result.wrongIds);
     }
 
-    // 復習モードで正解した問題をキューから削除
-    if (quizConfig?.mode === 'review' && result.total > 0) {
-      const reviewedIds = data.reviewQueue.filter(id =>
-        !result.wrongIds.includes(id)
-      );
-      removeFromReviewQueue(reviewedIds);
-    }
-
     // テスト履歴に保存（復習モードは記録しない）
     if (quizConfig?.mode === 'chapter' && result.total > 0) {
       addHistory({
@@ -49,7 +41,12 @@ export default function App() {
 
     refresh();
     setScreen('result');
-  }, [quizConfig, data.reviewQueue]);
+  }, [quizConfig]);
+
+  // 復習モードで正解した問題を即座にキューから削除
+  const handleCorrectAnswer = useCallback((id: string) => {
+    removeFromReviewQueue([id]);
+  }, []);
 
   const handleRetry = useCallback(() => {
     if (!quizConfig) return;
@@ -67,6 +64,7 @@ export default function App() {
         config={quizConfig}
         reviewQueue={data.reviewQueue}
         onFinish={handleFinish}
+        onCorrectAnswer={handleCorrectAnswer}
       />
     );
   }
